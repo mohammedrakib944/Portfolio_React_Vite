@@ -1,0 +1,71 @@
+.myImage {
+  width: 400px;
+  height: 275px;
+  float: left;
+  border-radius: 10px;
+  margin: 5px 20px 5px 0;
+  object-fit: cover;
+}
+.Cirtificate {
+  width: 100%;
+  border: 2px solid #dddee2;
+  border-radius: 10px;
+}
+.myDetails h6 {
+  color: var(--primaryColor);
+}
+.myDetails h5 {
+  color: var(--secondaryColor);
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  padding: 20px 0 10px 0;
+}
+.myDetails p {
+  color: #636c7e;
+  font-weight: 400;
+}
+.socialLinks {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 7px;
+}
+.socialLinks a {
+  border-radius: 7px;
+  font-weight: 500;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondaryColor);
+  color: white;
+  transition: 0.3s;
+}
+.socialLinks a:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.scIconfiverr {
+  background: #09bc66 !important;
+}
+.scIconYoutube {
+  background: var(--primaryColor) !important;
+  grid-column: 2/-1;
+}
+
+@media only screen and (max-width: 967px) {
+  .myImage {
+    width: 365px;
+    margin-bottom: 25px;
+  }
+  .myDetails {
+    padding: 0 18px;
+  }
+  .socialLinks {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 100px);
+  }
+  .scIconYoutube {
+    grid-column: 1/-1;
+  }
+}
