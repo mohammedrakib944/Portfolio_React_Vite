@@ -118,7 +118,7 @@
 }
 .backEnd {
   padding-left: 18px;
-  border-left: 2px solid var(--thirdColor);
+  border-left: 1px solid var(--thirdColor);
 }
 .gotoAboutSection {
   width: 100%;
@@ -127,6 +127,9 @@
 .aboutBtn {
   margin-top: 50px;
   background: none;
+}
+.aboutBtn:hover {
+  color: var(--primaryColor);
 }
 
 /* responsive design */

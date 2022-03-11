@@ -1,0 +1,44 @@
+.formWrapper {
+  min-height: 50vh;
+  color: var(--thirdColor);
+}
+.ContactForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+.input {
+  padding: 7px 10px;
+  border: 1px solid #bfbfc2;
+  border-radius: 7px;
+}
+.input:focus {
+  outline: none;
+}
+.contactTextArea {
+  grid-column: 1/-1;
+  min-height: 150px;
+  max-height: 200px;
+}
+.contactBtn {
+  border: none;
+  background-color: var(--primaryColor);
+  padding: 10px;
+  border-radius: 9px;
+  color: white;
+  font-weight: 400;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.contactBtn:hover {
+  background-color: #db304c;
+}
+.texting {
+  font-weight: 500;
+  color: var(--secondaryColor);
+}
+@media only screen and (max-width: 967px) {
+  .ContactForm {
+    grid-template-columns: 1fr;
+  }
+}

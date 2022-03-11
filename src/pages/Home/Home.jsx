@@ -47,30 +47,39 @@ export default function Home() {
             <div className="skillsSection">
               <div className="frontEnd">
                 <h4>FRONT END</h4>
-
                 <p>HTML</p>
                 <p>CSS</p>
+                <p>UI/UX</p>
                 <p>Javascript</p>
                 <p>Bootstrap</p>
                 <p>React js</p>
                 <p>Rest API</p>
-              </div>
-              <div className="backEnd">
+                <hr />
                 <h4>BACK END</h4>
                 <p>Node js</p>
                 <p>Express js</p>
                 <p>PHP</p>
-                <hr />
+              </div>
+              <div className="backEnd">
                 <h4>DATABASE</h4>
                 <p>MySql</p>
                 <p>Mongo DB</p>
+                <hr />
+                <h4>OTHERS</h4>
+                <p>CP(Solve 450+ Problems)</p>
+                <p>Networking</p>
+                <p>HTTP</p>
+                <p>SEO</p>
+                <p>Git/GitHub</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="gotoAboutSection">
-          <button className="custom-btn aboutBtn">ABOUT ME</button>
+          <Link className="custom-btn aboutBtn" to="/about">
+            ABOUT ME
+          </Link>
         </div>
       </div>
     </>

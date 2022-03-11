@@ -56,6 +56,9 @@ export default function About() {
                   </Link>
                   <Link to="#">Github</Link>
                   <Link to="#">Facebook</Link>
+                  <Link to="#" className="LinkdInBg">
+                    Linkdin
+                  </Link>
                 </div>
                 <h5 className="mt-4">ACHIVEMENT</h5>
                 <p>
