@@ -10,11 +10,14 @@ import Contact from "./pages/contact/Contact";
 import Partners from "./pages/partners/Partners";
 import Notfound from "./pages/notfound/Notfound";
 import Footer from "./components/footer/Footer";
+import Project from "./pages/Project/Project";
+import Loader from "./components/loader/Loader";
 
 export default function App() {
   return (
     <BrowserRouter>
       <div>
+        <Loader />
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,6 +25,7 @@ export default function App() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Notfound />} />
+          <Route path="/project/:paramsName" element={<Project />} />
         </Routes>
         <Footer />
       </div>

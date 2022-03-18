@@ -1,0 +1,43 @@
+.react-parallax-content {
+  color: var(--thirdColor);
+  text-align: center;
+}
+.backBtn {
+  position: fixed;
+  padding: 4px 25px;
+  background: var(--secondaryColor);
+  border-radius: 22px;
+  right: 30px;
+  bottom: 30px;
+  color: #e4e4e4;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.backBtn:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.342);
+  color: #fff;
+}
+.projectTitle {
+  color: #a0aabf;
+  font-size: 16px;
+  margin: 15px 0;
+}
+.projectTitle span {
+  color: var(--secondaryColor);
+  line-height: 22px;
+}
+.projectImgClass {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 44%);
+  margin-bottom: 25px;
+  transition: 0.3s;
+}
+.projectImgClass:hover {
+  box-shadow: none;
+}
+/* .projectImages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+} */

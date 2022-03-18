@@ -1,4 +1,6 @@
 import { Parallax } from "react-parallax";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // internal imports
 import "./contact.css";
@@ -7,6 +9,10 @@ import style from "../../assets/common.module.css";
 import secondaryBG from "../../assets/img/bg2.png";
 
 export default function Contact() {
+  const sendMessageHandler = () => {
+    toast.error("Can't send message!");
+  };
+
   return (
     <div>
       <Parallax
@@ -16,28 +22,23 @@ export default function Contact() {
       >
         <h2>CONTACT</h2>
       </Parallax>
+      <ToastContainer position="top-right" theme="colored" />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
             <h2 className={style.sectionTitle}>CONTACT</h2>
             <div className="formWrapper">
-              <form className="ContactForm">
-                <input
-                  type="text"
-                  placeholder="Name"
-                  className="input"
-                  required
-                />
-                <input type="email" placeholder="Name" className="input" />
+              <div className="ContactForm">
+                <input type="text" placeholder="Name" className="input" />
+                <input type="email" placeholder="Email" className="input" />
                 <textarea
-                  required
                   placeholder="Type message..."
                   className="input contactTextArea"
                 ></textarea>
-                <button className="contactBtn" type="submit">
+                <button className="contactBtn" onClick={sendMessageHandler}>
                   SEND MESSAGE
                 </button>
-              </form>
+              </div>
               <br />
               <hr />
               <br />

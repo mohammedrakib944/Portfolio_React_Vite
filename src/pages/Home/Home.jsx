@@ -22,20 +22,20 @@ export default function Home() {
           <div className="col-md-6">
             <h2 className={style.sectionTitle}>PROJECTS</h2>
             <div className="myProject">
-              <Link to="#" className="ISP">
+              <Link to="project/isp" className="ISP">
                 ISP-Management
               </Link>
 
-              <Link to="#" className="ecommerce">
+              <Link to="project/ecommerce" className="ecommerce">
                 E-commenrce
               </Link>
-              <Link to="#" className="blog">
-                Blog
+              <Link to="project/socialMedia" className="blog">
+                Social Media
               </Link>
-              <Link to="#" className="dashboard">
-                Dashboard
+              <Link to="project/movie" className="dashboard">
+                Movie
               </Link>
-              <Link to="#" className="portfolio">
+              <Link to="project/portfolio" className="portfolio">
                 Portfolio
               </Link>
             </div>
