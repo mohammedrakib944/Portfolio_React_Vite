@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./notfound.css";
-// nothing
 
 export default function Notfound() {
   return (
