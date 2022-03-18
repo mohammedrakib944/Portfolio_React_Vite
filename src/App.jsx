@@ -10,7 +10,7 @@ import Contact from "./pages/contact/Contact";
 import Partners from "./pages/partners/Partners";
 import Notfound from "./pages/notfound/Notfound";
 import Footer from "./components/footer/Footer";
-import Project from "./pages/Project/Project";
+import Project from "./pages/project/Project";
 import Loader from "./components/loader/Loader";
 
 export default function App() {
