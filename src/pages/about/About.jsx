@@ -28,20 +28,25 @@ export default function About() {
                 <h6>Hi,</h6>
                 <h5>My Name is Md.Rakibuzzaman (Nick name Rakib).</h5>
                 <p>
-                  {" "}
-                  I'm from Bangladesh. Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Aspernatur ut eaque ab corrupti nesciunt,
-                  ipsum beatae placeat veniam dicta ullam voluptatum incidunt
-                  possimus vero dolorem quidem impedit officia magni
-                  voluptatibus! veniam dicta ullam voluptatum incidunt possimus
-                  vero dolorem quidem impedit officia magni voluptatibus!
+                  I've been doing programming since 2017 from my College life.
+                  At very first I learned HTML, CSS, and javascript. In 2020 I
+                  got admission to Varendra University, Rajshahi Bangladesh.
+                  Then I started to do competitive programming. Learned
+                  <i> Data-Structure and Algorithms </i>. And Solved 450+
+                  problems. Besides, I attend some Programming contests and I
+                  did well on those. After that, I move to Fully web development
+                  and Learned React, Node js, Express js, Mongo DB. My goal was
+                  to be a great MERN stack developer. I am not lying, but I
+                  really good at web design. Then the middle of 2021, I got a
+                  job offer from a company called SUNNO SOFTWARE. And I do the
+                  job for 8 months as React Developer. And currently, I am doing
+                  freelancing projects for my clients.
                 </p>
                 <h5>EDUCATION</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aspernatur sunt nisi doloremque quibusdam ex eius ipsa nemo ea
-                  eos provident deserunt, odio veritatis dolores, commodi
-                  blanditiis quas nesciunt aliquam non?
+                  BSC in Computer Science and Engineering at Varendra
+                  University.
+                  <i> 23rd batch (2020)</i>
                 </p>
                 <h5>SOCIAL ACCOUNTS</h5>
                 <div className="socialLinks">
@@ -62,9 +67,8 @@ export default function About() {
                 </div>
                 <h5 className="mt-4">ACHIVEMENT</h5>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Sequi delectus corporis fugit inventore soluta iure voluptates
-                  ex ab. Consequatur, animi!
+                  This is an Intra University programming contest second runners
+                  Up certificate.
                 </p>
                 <img
                   className="Cirtificate"
@@ -80,19 +84,8 @@ export default function About() {
             <div className="myDetails">
               <h2 className={style.sectionTitle}>THIS SITE</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-                deleniti officia est ex recusandae modi cumque accusamus
-                necessitatibus, magni a autem doloribus minima quia unde quasi
-                consequuntur neque ab eum fugit totam tempora! Veritatis atque
-                aspernatur animi architecto officia distinctio vel quidem
-                sapiente ipsa perferendis fuga id inventore et dolor, ducimus,
-                consequatur blanditiis deleniti ut maxime rem mollitia veniam.
-                Impedit quas incidunt, fugiat rerum dignissimos voluptas,
-                perferendis deleniti voluptates animi porro nam, et ad
-                consectetur odit doloribus eligendi quibusdam dicta officiis rem
-                sapiente maiores? Consequatur voluptate, nulla harum nam
-                inventore accusantium sint officia. Aut accusantium nam
-                exercitationem nisi aliquid adipisci.
+                This website is made with React js (A javascript library). Also
+                Bootstrap and many other librarys
               </p>
             </div>
           </div>
