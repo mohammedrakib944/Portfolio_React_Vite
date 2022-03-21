@@ -34,13 +34,12 @@ export default function About() {
                   Then I started to do competitive programming. Learned
                   <i> Data-Structure and Algorithms </i>. And Solved 450+
                   problems. Besides, I attend some Programming contests and I
-                  did well on those. After that, I move to Fully web development
-                  and Learned React, Node js, Express js, Mongo DB. My goal was
-                  to be a great MERN stack developer. I am not lying, but I
-                  really good at web design. Then the middle of 2021, I got a
-                  job offer from a company called SUNNO SOFTWARE. And I do the
-                  job for 8 months as React Developer. And currently, I am doing
-                  freelancing projects for my clients.
+                  did well on those. After that, I move to web development and
+                  Learned React, Node js, Express js, Mongo DB. My goal was to
+                  be a great MERN stack developer. Then the middle of 2021, I
+                  got a job offer from a company called SUNNO SOFTWARE. And I do
+                  the job for 8 months as React Developer. And currently, I am
+                  doing freelancing projects for my clients.
                 </p>
                 <h5>EDUCATION</h5>
                 <p>
