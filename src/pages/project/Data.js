@@ -45,6 +45,7 @@ export const projectData = [
     description:
       "Movie Review is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
     img1: Movie,
+    preview: "https://rakib-movie.netlify.app/",
   },
   {
     params: "portfolio",
