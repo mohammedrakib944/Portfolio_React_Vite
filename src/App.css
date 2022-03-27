@@ -22,3 +22,11 @@ a {
 li {
   list-style: none !important;
 }
+.btn-danger {
+  background: var(--primaryColor) !important;
+  border: 1px solid;
+  border-color: red;
+}
+.btn-danger:hover {
+  background: #ce223e !important;
+}

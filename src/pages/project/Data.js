@@ -5,6 +5,7 @@ import Dash4 from "../../assets/projectImg/dashboardMobile2.png";
 import Movie from "../../assets/projectImg/movie.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
+import NFT from "../../assets/projectImg/NFT.png";
 import PortfolioOld from "../../assets/projectImg/PortfolioOld.png";
 
 export const projectData = [
@@ -21,11 +22,12 @@ export const projectData = [
   },
   {
     params: "ecommerce",
-    name: "E-comerce",
+    name: "NFT",
     language: "React",
     description:
-      "Ecomerce is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: Dash1,
+      "NFT is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+    img1: NFT,
+    preview: "https://rakib-nft.netlify.app/",
   },
   {
     params: "socialMedia",

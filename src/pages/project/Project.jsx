@@ -45,6 +45,18 @@ export default function Project() {
             <h5 className="projectTitle">
               Description: <span>{data?.description}</span>
             </h5>
+            {data?.preview && (
+              <h5 className="projectTitle">
+                <a
+                  className="btn btn-danger"
+                  href={data?.preview}
+                  target="_blank"
+                >
+                  Live Preview
+                </a>
+              </h5>
+            )}
+
             <Link
               to="/contact"
               style={{ color: "rgb(29 197 119)", fontWeight: 500 }}

@@ -27,7 +27,7 @@ export default function Home() {
               </Link>
 
               <Link to="project/ecommerce" className="ecommerce">
-                E-commenrce
+                NFT
               </Link>
               <Link to="project/socialMedia" className="blog">
                 Social Media
