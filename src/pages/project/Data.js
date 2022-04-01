@@ -6,7 +6,7 @@ import Movie from "../../assets/projectImg/movie.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
-import PortfolioOld from "../../assets/projectImg/PortfolioOld.png";
+import portfolio from "../../assets/projectImg/portfolio.jpg";
 
 export const projectData = [
   {
@@ -53,6 +53,7 @@ export const projectData = [
     language: "React",
     description:
       "Portfolio is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: PortfolioOld,
+    img1: portfolio,
+    preview: "https://rakibskills.me/client-landing/",
   },
 ];
