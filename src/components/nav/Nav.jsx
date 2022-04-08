@@ -8,7 +8,7 @@ export default function Nav() {
   window.onscroll = function () {
     const navi = document.querySelector(".navSection");
     let height = window.pageYOffset;
-    if (height >= 100) navi.classList.add("secondNav");
+    if (height >= 10) navi.classList.add("secondNav");
     else navi.classList.remove("secondNav");
   };
 

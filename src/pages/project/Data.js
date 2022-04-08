@@ -21,13 +21,22 @@ export const projectData = [
     img4: Dash4,
   },
   {
-    params: "ecommerce",
+    params: "nft",
     name: "NFT",
     language: "React",
     description:
       "NFT is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
     img1: NFT,
     preview: "https://rakib-nft.netlify.app/",
+  },
+  {
+    params: "ecommerce",
+    name: "E-commerce",
+    language: "React",
+    description:
+      "E-commerce is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+    img1: NFT,
+    preview: "https://rakib-e-commerce.netlify.app/",
   },
   {
     params: "socialMedia",

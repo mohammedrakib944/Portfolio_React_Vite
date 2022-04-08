@@ -3,13 +3,14 @@ import { Parallax } from "react-parallax";
 // internal imports
 import style from "../../assets/common.module.css";
 import "./home.css";
-import BG1 from "../../assets/img/bg.png";
+// import BG1 from "../../assets/img/bg.png";
+import BG2 from "../../assets/img/pBG.png";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      <Parallax className="landing" bgImage={BG1} strength={700}>
+      <Parallax className="landing" bgImage={BG2} strength={700}>
         <div className="landingContent">
           <h5>I'm Rakib</h5>
           <h1>WEB DEVELOPER</h1>
@@ -26,8 +27,11 @@ export default function Home() {
                 ISP-Management
               </Link>
 
-              <Link to="project/ecommerce" className="ecommerce">
+              <Link to="project/nft" className="ecommerce">
                 NFT
+              </Link>
+              <Link to="project/ecommerce" className="ecommerce">
+                E-commerce
               </Link>
               <Link to="project/socialMedia" className="blog">
                 Social Media

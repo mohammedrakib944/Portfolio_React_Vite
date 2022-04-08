@@ -26,7 +26,7 @@ export default function About() {
               <img className="myImage" src={rakib} alt="" />
               <div className="myDetails">
                 <h6>Hi,</h6>
-                <h5>My Name is Md.Rakibuzzaman (Nick name Rakib).</h5>
+                <h5>My Name is Md.Rakibuzzaman (Rakib).</h5>
                 <p>
                   I've been doing programming since 2017 from my College life.
                   At very first I learned HTML, CSS, and javascript. In 2020 I

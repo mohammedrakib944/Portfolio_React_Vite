@@ -56,7 +56,7 @@ export default function Project() {
                 </a>
               </h5>
             )}
-
+            <hr />
             <Link
               to="/contact"
               style={{ color: "rgb(29 197 119)", fontWeight: 500 }}

@@ -15,13 +15,13 @@
   color: var(--primaryColor);
 }
 .myDetails h5 {
-  color: var(--secondaryColor);
+  color: var(--text);
   font-size: 17px;
   letter-spacing: 0.2px;
   padding: 20px 0 10px 0;
 }
 .myDetails p {
-  color: #636c7e;
+  color: var(--thirdColor);
   font-weight: 400;
 }
 .socialLinks {

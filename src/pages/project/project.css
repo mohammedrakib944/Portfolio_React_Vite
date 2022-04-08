@@ -12,18 +12,20 @@
   color: #e4e4e4;
   font-size: 14px;
   transition: 0.3s;
+  border: 1px solid var(--primaryColor);
 }
 .backBtn:hover {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.342);
   color: #fff;
 }
 .projectTitle {
-  color: #a0aabf;
+  color: var(--thirdColor);
   font-size: 16px;
   margin: 15px 0;
 }
 .projectTitle span {
-  color: var(--secondaryColor);
+  color: var(--text);
+  font-weight: 500;
   line-height: 22px;
 }
 .projectImgClass {
