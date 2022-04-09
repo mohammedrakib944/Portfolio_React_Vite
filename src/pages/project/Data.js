@@ -7,6 +7,7 @@ import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
 import portfolio from "../../assets/projectImg/portfolio.jpg";
+import todoList from "../../assets/projectImg/todoList.png";
 
 export const projectData = [
   {
@@ -64,5 +65,14 @@ export const projectData = [
       "Portfolio is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
     img1: portfolio,
     preview: "https://rakibskills.me/client-landing/",
+  },
+  {
+    params: "todo",
+    name: "ToDO List",
+    language: "Javascript",
+    description:
+      "Todo List is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+    img1: todoList,
+    preview: "http://rakibskills.me/ToDo-LIST/",
   },
 ];

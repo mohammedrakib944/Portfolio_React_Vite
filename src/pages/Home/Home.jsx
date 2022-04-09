@@ -42,6 +42,9 @@ export default function Home() {
               <Link to="project/portfolio" className="portfolio">
                 Portfolio
               </Link>
+              <Link to="project/todo" className="ecommerce">
+                ToDo List
+              </Link>
             </div>
           </div>
         </div>
