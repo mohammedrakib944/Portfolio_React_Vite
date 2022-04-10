@@ -73,6 +73,6 @@ export const projectData = [
     description:
       "Todo List is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
     img1: todoList,
-    preview: "http://rakibskills.me/ToDo-LIST/",
+    preview: "https://rakibskills.me/todo-list/",
   },
 ];
