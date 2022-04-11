@@ -82,7 +82,7 @@
   background: var(--secondaryColor);
 }
 .portfolio {
-  /* background: var(--primaryColor); */
+  background: var(--secondaryColor);
 }
 .skillSectionBG {
   border-radius: 10px;
