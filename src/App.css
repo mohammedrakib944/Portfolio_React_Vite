@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@100;300;400;500&display=swap");
 :root {
-  --primaryColor: #fb3858;
-  /* --primaryColor: #0bc74d; */
-  --secondaryColor: #363949;
+  /* --primaryColor: #fb3858; */
+  --primaryColor: #12da8d;
+  --secondaryColor: #2e4243;
   --thirdColor: #7c869b;
-  --bodyBG: #2b2e3c;
+  --bodyBG: #26333b;
   --text: #babcc8;
 }
 * {
@@ -39,9 +39,10 @@ hr {
 }
 .btn-danger {
   background: var(--primaryColor) !important;
-  border: 1px solid;
-  border-color: red;
+  border: none !important;
+  color: var(--bodyBG) !important;
+  font-weight: 500 !important;
 }
 .btn-danger:hover {
-  background: #ce223e !important;
+  filter: contrast(2);
 }

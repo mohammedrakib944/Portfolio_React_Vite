@@ -31,12 +31,8 @@
 .projectImgClass {
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 44%);
-  margin-bottom: 25px;
-  transition: 0.3s;
-}
-.projectImgClass:hover {
-  box-shadow: none;
+  box-shadow: 0px 0px 7px var(--primaryColor);
+  margin: 25px 0;
 }
 /* .projectImages {
   display: grid;

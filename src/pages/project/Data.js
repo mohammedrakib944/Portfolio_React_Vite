@@ -16,6 +16,7 @@ export const projectData = [
     language: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+    preview: "https://netfeebd.com/",
     img1: Dash1,
     img2: Dash2,
     img3: Dash3,
@@ -27,8 +28,8 @@ export const projectData = [
     language: "React",
     description:
       "NFT is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: NFT,
     preview: "https://rakib-nft.netlify.app/",
+    img1: NFT,
   },
   {
     params: "ecommerce",
@@ -36,8 +37,8 @@ export const projectData = [
     language: "React",
     description:
       "E-commerce is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: NFT,
     preview: "https://rakib-e-commerce.netlify.app/",
+    img1: NFT,
   },
   {
     params: "socialMedia",
@@ -54,8 +55,8 @@ export const projectData = [
     language: "React",
     description:
       "Movie Review is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: Movie,
     preview: "https://rakib-movie.netlify.app/",
+    img1: Movie,
   },
   {
     params: "portfolio",
@@ -63,8 +64,8 @@ export const projectData = [
     language: "React",
     description:
       "Portfolio is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: portfolio,
     preview: "https://rakibskills.me/client-landing/",
+    img1: portfolio,
   },
   {
     params: "todo",
@@ -72,7 +73,7 @@ export const projectData = [
     language: "Javascript",
     description:
       "Todo List is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    img1: todoList,
     preview: "https://rakibskills.me/todo-list/",
+    img1: todoList,
   },
 ];
