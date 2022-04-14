@@ -45,15 +45,16 @@
     padding: 0px;
   }
   .navigation {
-    border-top: 1px solid rgb(221 221 221 / 14%);
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px 3px;
+    background: #2e4243;
+    padding: 10px 20px;
+    border-radius: 6px;
   }
   .Logo {
     display: inherit;
-    padding: 15px 18px 3px 0;
-    text-align: right;
+    padding: 15px 0 5px 0;
+    text-align: center;
   }
   .react-parallax-bgimage {
     left: 130% !important;
