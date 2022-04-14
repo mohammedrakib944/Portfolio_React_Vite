@@ -14,7 +14,7 @@
   justify-content: center;
   color: white;
   /* backdrop-filter: blur(1px); */
-  background: linear-gradient(0deg, #005efd78, transparent);
+  background: linear-gradient(0deg, #00d8fd3d, #14171a);
 }
 .landingContent h5 {
   letter-spacing: 1px;
@@ -127,7 +127,7 @@
   text-align: center;
 }
 .aboutBtn {
-  color: #3889ff;
+  color: var(--text);
   margin-top: 50px;
   font-weight: 500;
   background: none;
