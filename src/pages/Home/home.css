@@ -13,9 +13,11 @@
   align-items: center;
   justify-content: center;
   color: white;
-  /* backdrop-filter: blur(1px); */
-  background: linear-gradient(0deg, #00d8fd3d, #14171a);
+  /* background: radial-gradient(#076a44, #26333b); */
+  background: linear-gradient(45deg, #00ff8547, #545ff060, #2e4243);
+  /* animation: animate 2s linear infinite alternate; */
 }
+
 .landingContent h5 {
   letter-spacing: 1px;
 }

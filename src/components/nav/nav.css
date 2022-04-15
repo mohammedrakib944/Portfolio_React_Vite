@@ -41,15 +41,21 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .navSection {
-    padding: 0px;
-  }
   .navigation {
     width: 100%;
     margin: 0 auto;
     background: #2e4243;
     padding: 10px 20px;
     border-radius: 6px;
+    border: 1px solid #dddddd1c;
+    box-shadow: 0px 3px 8px #00000042;
+    margin-top: 5px;
+  }
+  .secondNav {
+    border-bottom: 1px solid #dddddd1c;
+  }
+  .navSection {
+    padding: 0 10px;
   }
   .Logo {
     display: inherit;
