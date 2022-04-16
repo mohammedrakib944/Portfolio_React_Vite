@@ -14,7 +14,7 @@
   justify-content: center;
   color: white;
   /* background: radial-gradient(#076a44, #26333b); */
-  background: linear-gradient(45deg, #00ff8547, #545ff060, #2e4243);
+  background: linear-gradient(0deg, var(--secondaryColor), transparent);
   /* animation: animate 2s linear infinite alternate; */
 }
 

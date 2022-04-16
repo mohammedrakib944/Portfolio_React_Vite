@@ -5,6 +5,9 @@
   background: none;
   z-index: 100;
 }
+.hideMenu {
+  display: none;
+}
 .secondNav {
   transition: 0.3s;
   background: var(--secondaryColor);
@@ -16,7 +19,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  /* padding-top: 5px; */
+  padding-top: 8px;
   font-weight: 400;
 }
 .Logo strong {
@@ -29,8 +32,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.navigation li {
-}
 .navigation li a {
   color: #9ba3b6;
   font-weight: 500;
@@ -42,14 +43,33 @@
 
 @media only screen and (max-width: 767px) {
   .navigation {
-    width: 100%;
-    margin: 0 auto;
-    background: #2e4243;
-    padding: 10px 20px;
-    border-radius: 6px;
-    border: 1px solid #dddddd1c;
-    box-shadow: 0px 3px 8px #00000042;
-    margin-top: 5px;
+    width: 60%;
+    background: #413958;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #48425a;
+    padding-top: 10%;
+  }
+  .hideNav {
+    display: none !important;
+  }
+  .showNav {
+    display: block !important;
+  }
+  .navigation li {
+    padding-bottom: 15px;
+    padding-left: 20%;
+  }
+  .hideNavigation {
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(65 57 88 / 12%);
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(2px);
   }
   .secondNav {
     border-bottom: 1px solid #dddddd1c;
@@ -57,10 +77,23 @@
   .navSection {
     padding: 0 10px;
   }
+  .hideMenu {
+    display: block;
+  }
+  .menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 3px 0;
+  }
+  .menubar button {
+    background: none;
+    border: none;
+    color: var(--text);
+    margin-top: -4px;
+  }
   .Logo {
-    display: inherit;
-    padding: 15px 0 5px 0;
-    text-align: center;
+    padding: initial;
   }
   .react-parallax-bgimage {
     left: 130% !important;

@@ -10,9 +10,9 @@
 .input {
   padding: 7px 10px;
   background: none;
-  border: 1px solid var(--text);
+  border: 1px solid #464646;
   color: var(--text);
-  border-radius: 7px;
+  border-radius: 3px;
 }
 .input:focus {
   outline: none;
@@ -26,14 +26,14 @@
   border: none;
   background-color: var(--primaryColor);
   padding: 10px;
-  border-radius: 9px;
-  color: white;
+  border-radius: 3px;
+  color: var(--secondaryColor);
   font-weight: 400;
   transition: 0.3s;
   font-size: 14px;
 }
 .contactBtn:hover {
-  background-color: #db304c;
+  background-color: #e3bb08;
 }
 .texting {
   font-weight: 500;

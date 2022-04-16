@@ -59,7 +59,7 @@ export default function Project() {
             <hr />
             <Link
               to="/contact"
-              style={{ color: "rgb(29 197 119)", fontWeight: 500 }}
+              style={{ color: "var(--primaryColor)", fontWeight: 500 }}
             >
               For source code contact with me
             </Link>
