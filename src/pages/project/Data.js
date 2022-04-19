@@ -64,7 +64,7 @@ export const projectData = [
     language: "React",
     description:
       "Portfolio is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
-    preview: "https://rakibskills.me/client-landing/",
+    preview: "https://dorac.app/",
     img1: portfolio,
   },
   {

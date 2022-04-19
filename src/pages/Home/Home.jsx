@@ -3,6 +3,7 @@ import { Parallax } from "react-parallax";
 // internal imports
 import style from "../../assets/common.module.css";
 import "./home.css";
+
 // import BG1 from "../../assets/img/bg.png";
 import BG2 from "../../assets/img/pBG.png";
 import { Link } from "react-router-dom";
@@ -27,11 +28,8 @@ export default function Home() {
                 ISP-Management
               </Link>
 
-              <Link to="project/nft" className="ecommerce">
+              <Link to="project/nft" className="ecommerce nft">
                 NFT
-              </Link>
-              <Link to="project/ecommerce" className="ecommerce">
-                E-commerce
               </Link>
               <Link to="project/socialMedia" className="blog">
                 Social Media
@@ -42,8 +40,14 @@ export default function Home() {
               <Link to="project/portfolio" className="portfolio">
                 Portfolio
               </Link>
-              <Link to="project/todo" className="ecommerce">
+              <Link to="project/todo" className="ecommerce todolist">
                 ToDo List
+              </Link>
+              <Link
+                to="project/ecommerce"
+                className="ecommerce E-commerce-grid"
+              >
+                E-commerce
               </Link>
             </div>
           </div>

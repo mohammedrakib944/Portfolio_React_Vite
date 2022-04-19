@@ -79,6 +79,9 @@
 .ecommerce {
   background: var(--secondaryColor);
 }
+.E-commerce-grid {
+  grid-column: 2/-1;
+}
 .blog {
   background: var(--secondaryColor);
 }

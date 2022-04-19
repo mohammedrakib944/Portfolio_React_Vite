@@ -22,7 +22,9 @@ export default function Partners() {
             <h2 className={style.sectionTitle}>PARTNERS</h2>
             <div className="partNersWrapper">
               <br />
-              <h2>Currently Alone :(</h2>
+              <h2>
+                Single <i class="fa-solid fa-face-smile-beam"></i>
+              </h2>
             </div>
           </div>
         </div>
