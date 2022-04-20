@@ -8,6 +8,7 @@ import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
 import portfolio from "../../assets/projectImg/portfolio.jpg";
 import todoList from "../../assets/projectImg/todoList.png";
+import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 
 export const projectData = [
   {
@@ -38,7 +39,7 @@ export const projectData = [
     description:
       "E-commerce is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
     preview: "https://rakib-e-commerce.netlify.app/",
-    img1: NFT,
+    img1: ecommerceImg,
   },
   {
     params: "socialMedia",
