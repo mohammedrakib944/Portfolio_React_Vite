@@ -31,10 +31,12 @@ export default function Project() {
         <h2>Project</h2>
         <h4 className="project-Name">( {data?.name} )</h4>
       </Parallax>
+
       <div className="container">
         <div className="row justify-content-center">
           {/* otheres projects */}
           <div className="col-md-2">
+            {/* <h5 className="mp-title">All Projects</h5> */}
             <div className="othersProjects">
               <div className="MoreProjects">
                 {ProjectsNames.map((data, index) => (
@@ -52,13 +54,13 @@ export default function Project() {
 
           {/* project details section */}
           <div className="col-md-8">
+            {/* <h5 className="mp-title">Details</h5> */}
             <div id="singleProject">
               <p className="backBtn" onClick={() => navigate(-1)}>
                 <i class="fa-solid fa-arrow-left"></i> Back
               </p>
               <br />
               <hr />
-              <h5 className="mp-title">Details</h5>
               <h5 className="projectTitle">
                 Project Name: <span className="project-Name">{data?.name}</span>
               </h5>
