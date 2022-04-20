@@ -3,8 +3,7 @@ import { Parallax } from "react-parallax";
 // internal imports
 import style from "../../assets/common.module.css";
 import "./home.css";
-
-// import BG1 from "../../assets/img/bg.png";
+import { ProjectsNames } from "./Projects";
 import BG2 from "../../assets/img/pBG.png";
 import { Link } from "react-router-dom";
 
@@ -23,32 +22,13 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-md-6">
             <h2 className={style.sectionTitle}>PROJECTS</h2>
-            <div className="myProject">
-              <Link to="project/isp" className="ISP">
-                ISP-Management
-              </Link>
 
-              <Link to="project/nft" className="ecommerce nft">
-                NFT
-              </Link>
-              <Link to="project/socialMedia" className="blog">
-                Social Media
-              </Link>
-              <Link to="project/movie" className="dashboard">
-                Movie
-              </Link>
-              <Link to="project/portfolio" className="portfolio">
-                Portfolio
-              </Link>
-              <Link to="project/todo" className="ecommerce todolist">
-                ToDo List
-              </Link>
-              <Link
-                to="project/ecommerce"
-                className="ecommerce E-commerce-grid"
-              >
-                E-commerce
-              </Link>
+            <div className="myProject">
+              {ProjectsNames.map((data, index) => (
+                <Link to={data.path} className={data.classEs} key={index}>
+                  {data.name}
+                </Link>
+              ))}
             </div>
           </div>
         </div>

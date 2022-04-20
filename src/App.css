@@ -2,6 +2,8 @@
 :root {
   /* --primaryColor: #fb3858; */
   --primaryColor: #f1c40f;
+  --blue: #3498db;
+  --projectBg: #282a36;
   --secondaryColor: #373147;
   --thirdColor: #7c869b;
   --bodyBG: #201c29;
@@ -41,6 +43,8 @@ hr {
   background: var(--primaryColor) !important;
   border: none !important;
   color: var(--bodyBG) !important;
+  font-size: 14px !important;
+  padding: 5px 14px !important;
   font-weight: 500 !important;
 }
 .btn-danger:hover {

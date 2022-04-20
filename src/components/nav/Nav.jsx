@@ -27,9 +27,11 @@ export default function Nav() {
               >
                 <i class="fa-solid fa-bars"></i>
               </button>
-              <h2 className="Logo">
-                Md. <strong> Rakib</strong>
-              </h2>
+              <NavLink to="/">
+                <h2 className="Logo">
+                  Md. <strong> Rakib</strong>
+                </h2>
+              </NavLink>
             </div>
           </div>
           <div className="col-md-4">
