@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@100;300;400;500&display=swap");
 :root {
   /* --primaryColor: #fb3858; */
-  --primaryColor: #f1c40f;
+  --primaryColor: #b9ff00;
   --blue: #3498db;
   --projectBg: #282a36;
-  --secondaryColor: #373147;
+  --secondaryColor: #32323e;
   --thirdColor: #7c869b;
-  --bodyBG: #201c29;
+  --bodyBG: #191a25;
   --text: #babcc8;
 }
 * {

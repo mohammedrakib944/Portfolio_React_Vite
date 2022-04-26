@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <Parallax className="landing" bgImage={BG2} strength={700}>
+      <Parallax className="landing" bgImage={BG2} strength={500}>
         <div className="landingContent">
           <h5>I'm Rakib</h5>
           <h1>WEB DEVELOPER</h1>

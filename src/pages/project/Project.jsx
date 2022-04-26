@@ -62,7 +62,7 @@ export default function Project() {
               <br />
               <hr />
               <h5 className="projectTitle">
-                Project Name: <span className="project-Name">{data?.name}</span>
+                Project Name: <span>{data?.name}</span>
               </h5>
               <h5 className="projectTitle">
                 Language/Fremwork: <span>{data?.language}</span>
