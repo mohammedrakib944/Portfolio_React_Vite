@@ -39,7 +39,7 @@ export default function Nav() {
           <div className="primaryColorChage">
             <button
               className="colorBtn redBg"
-              onClick={() => changePrimaryColor("#f60073")}
+              onClick={() => changePrimaryColor("#ff692f")}
             ></button>
             <button
               className="colorBtn greenBg"
@@ -47,11 +47,11 @@ export default function Nav() {
             ></button>
             <button
               className="colorBtn blueBg"
-              onClick={() => changePrimaryColor("#00c0ff")}
+              onClick={() => changePrimaryColor("#62d8ff")}
             ></button>
             <button
               className="colorBtn purpleBg"
-              onClick={() => changePrimaryColor("#9d44f5")}
+              onClick={() => changePrimaryColor("#b774f9")}
             ></button>
             <button
               className="colorBtn yellowBg"
