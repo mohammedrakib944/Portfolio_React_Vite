@@ -45,6 +45,7 @@
 .custom-btn:hover {
   box-shadow: 0px 0px 10px var(--primaryColor);
 }
+
 .myProject {
   width: 100%;
   display: grid;
@@ -53,21 +54,24 @@
   align-items: center;
   text-align: center;
   grid-gap: 7px;
+  transform: perspective(600px) rotateX(10deg);
 }
 .myProject a {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #454544;
   color: white;
   font-size: 16px;
   font-weight: 500;
   border-radius: 7px;
+  transition: 0.3s;
 }
 .myProject a:hover {
   color: white;
-  box-shadow: 0 4px 10px #1d1e26;
-  border: 1px solid #454544;
+  box-shadow: 0 8px 10px var(--primaryColor);
+  transform: scale(1.02);
 }
 .ISP {
   background: var(--primaryColor);
@@ -142,6 +146,7 @@
 /* responsive design */
 @media only screen and (max-width: 967px) {
   .myProject {
+    transform: initial;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 130px);
   }
