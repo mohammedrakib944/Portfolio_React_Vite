@@ -15,7 +15,9 @@ export default function Home() {
           <h5>I'm Rakib</h5>
           <h1>WEB DEVELOPER</h1>
           <p>expert on MERN stack</p>
+          <Link to="/contact">
           <button className="custom-btn">CONTACT</button>
+          </Link>
         </div>
       </Parallax>
       <div className="container">

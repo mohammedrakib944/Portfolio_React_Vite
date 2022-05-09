@@ -63,8 +63,9 @@
   background: none;
   width: 80px;
   text-align: right;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: 0.3s;
+  
 }
 .settingsSilder:hover {
   opacity: 1;
@@ -76,18 +77,19 @@
   height: 50px;
   box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.486);
   background: var(--secondaryColor);
-  color: var(--text);
+  color: var(--primaryColor);
   font-size: 1.4rem;
   border: none;
+  animation: Rotate 10s linear infinite;
 }
 .settingsSilder button:hover {
-  /* animation: gearRotate 5s linear infinite; */
-}
-@keyframes gearRotate {
-  0% {
+  animation:none;
+}   
+@keyframes Rotate {
+  0%{
     transform: rotate(0deg);
   }
-  100% {
+  100%{
     transform: rotate(360deg);
   }
 }

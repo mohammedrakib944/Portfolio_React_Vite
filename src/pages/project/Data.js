@@ -13,10 +13,10 @@ import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 export const projectData = [
   {
     params: "isp",
-    name: "ISP Management Update",
-    language: "React",
+    name: "ISP Management",
+    language: "React, CSS 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This is the project that I build for an company call -sunno software bd. This is all with react functional component",
     preview: "https://netfeebd.com/",
     img1: Dash1,
     img2: Dash2,
@@ -25,55 +25,55 @@ export const projectData = [
   },
   {
     params: "nft",
-    name: "NFT",
-    language: "React",
+    name: "NFT Home Page",
+    language: "React, CSS 3",
     description:
-      "NFT is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "A simple NFT site front page design for an US client",
     preview: "https://rakib-nft.netlify.app/",
     img1: NFT,
   },
   {
     params: "ecommerce",
     name: "E-commerce",
-    language: "React",
+    language: "React, CSS 3",
     description:
-      "E-commerce is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This is an E-commerce website(developing phase) build with react and raw CSS, But I use little but of bootstrap 5.",
     preview: "https://rakib-e-commerce.netlify.app/",
     img1: ecommerceImg,
   },
   {
     params: "socialMedia",
     name: "Social Media",
-    language: "React",
+    language: "React, CSS 3",
     description:
-      "Facrbook is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This was the first project that I build as fullstack developer. More like facebook. Though it is incomplete but in developinig phase",
     img1: media1,
     img1: media2,
   },
   {
     params: "movie",
     name: "Movie Review",
-    language: "React",
+    language: "React, Rest API, CSS 3",
     description:
-      "Movie Review is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This is the App you can find all details of any movies. I was build this website for clear my REST API concept.",
     preview: "https://rakib-movie.netlify.app/",
     img1: Movie,
   },
   {
     params: "portfolio",
-    name: "Old Portfolio",
-    language: "React",
+    name: "Portfolio",
+    language: "HTML 5, CSS 3",
     description:
-      "Portfolio is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This is the website that I was build for a Client",
     preview: "https://dorac.app/",
     img1: portfolio,
   },
   {
     params: "todo",
-    name: "ToDO List",
-    language: "Javascript",
+    name: "To-Do List",
+    language: "HTML 5, CSS 3, Vanilla Javascript",
     description:
-      "Todo List is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora earum molestiae",
+      "This is very first app I was build for clearing my javascript concept also ES6",
     preview: "https://rakibskills.me/todo-list/",
     img1: todoList,
   },

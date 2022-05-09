@@ -49,20 +49,19 @@ export default function About() {
                 </p>
                 <h5>SOCIAL ACCOUNTS</h5>
                 <div className="socialLinks">
-                  <Link to="#" className="scIconfiverr">
+                  <a href="https://www.fiverr.com/share/1V3dBr" target="_blank" className="scIconfiverr">
                     Fiverr
-                  </Link>
-                  <Link to="#">Freelancer.com</Link>
-                  <Link to="#">Codeforces</Link>
-                  <Link to="#">Codechef</Link>
-                  <Link to="#" className="scIconYoutube">
+                  </a>
+                  <a href="https://www.freelancer.com/u/rakibuzzamanpro3" target="_blank">Freelancer.com</a>
+                  <a href="https://codeforces.com/profile/MohammedRakib" target="_blank">Codeforces</a>
+                  <a href="https://www.youtube.com/channel/UCgjIzFwnjt1vXEg-_BDN8fw" target="_blank" className="scIconYoutube">
                     Youtube
-                  </Link>
-                  <Link to="#">Github</Link>
-                  <Link to="#">Facebook</Link>
-                  <Link to="#" className="LinkdInBg">
+                  </a>
+                  <a href="https://github.com/mohammedrakib944" target="_blank" className="gitHub">Github</a>
+                  <a href="https://web.facebook.com/md.rakib.38" target="_blank">Facebook</a>
+                  <a href="https://www.linkedin.com/in/mohammed-rakib-246a701b2/" target="_blank" className="LinkdInBg">
                     Linkdin
-                  </Link>
+                  </a>
                 </div>
                 <h5 className="mt-4">ACHIVEMENT</h5>
                 <p>

@@ -25,7 +25,8 @@ export default function Nav() {
       <div className="navSection">
         <div className="settingsSilder">
           <button onClick={() => setToggleSetting("showSetting")}>
-            <i class="fa-solid fa-screwdriver-wrench"></i>
+          <i class="fa-solid fa-palette"></i>
+          {/* <i class="fa-solid fa-brush"></i> */}
           </button>
         </div>
 
