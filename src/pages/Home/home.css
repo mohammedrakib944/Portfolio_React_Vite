@@ -54,7 +54,7 @@
   align-items: center;
   text-align: center;
   grid-gap: 7px;
-  transform: perspective(600px) rotateX(10deg);
+  /* transform: perspective(600px) rotateX(10deg); */
 }
 .myProject a {
   height: 100%;
@@ -69,9 +69,10 @@
   transition: 0.3s;
 }
 .myProject a:hover {
-  color: white;
-  box-shadow: 0 8px 10px var(--primaryColor);
-  transform: scale(1.02);
+  box-shadow: 0 0px 5px var(--primaryColor);
+  transform: scale(1.01);
+  color: var(--text);
+  transform: perspective(100px) rotateY(-3deg);
 }
 .ISP {
   background: var(--primaryColor);
