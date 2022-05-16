@@ -24,7 +24,7 @@
 }
 .Logo strong {
   font-weight: 400;
-  color: white;
+  color: #fafafa;
 }
 .navigation {
   height: 100%;
@@ -33,7 +33,7 @@
   justify-content: space-between;
 }
 .navigation li a {
-  color: #9ba3b6;
+  color: #909395;
   font-weight: 500;
   transition: 0.3s;
 }
@@ -65,7 +65,6 @@
   text-align: right;
   opacity: 0.8;
   transition: 0.3s;
-  
 }
 .settingsSilder:hover {
   opacity: 1;
@@ -83,13 +82,13 @@
   animation: Rotate 10s linear infinite;
 }
 .settingsSilder button:hover {
-  animation:none;
-}   
+  animation: none;
+}
 @keyframes Rotate {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }

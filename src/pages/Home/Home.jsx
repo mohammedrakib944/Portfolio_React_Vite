@@ -4,19 +4,20 @@ import { Parallax } from "react-parallax";
 import style from "../../assets/common.module.css";
 import "./home.css";
 import { ProjectsNames } from "./Projects";
-import BG2 from "../../assets/img/pBG.png";
+// import BG2 from "../../assets/img/bg2.jpg";
+import BG2 from "../../assets/img/bg6.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      <Parallax className="landing" bgImage={BG2} strength={500}>
+      <Parallax className="landing" bgImage={BG2} strength={0}>
         <div className="landingContent">
           <h5>I'm Rakib</h5>
           <h1>WEB DEVELOPER</h1>
           <p>expert on MERN stack</p>
           <Link to="/contact">
-          <button className="custom-btn">CONTACT</button>
+            <button className="custom-btn">CONTACT</button>
           </Link>
         </div>
       </Parallax>

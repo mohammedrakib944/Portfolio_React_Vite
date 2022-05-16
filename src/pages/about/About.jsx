@@ -73,6 +73,7 @@ export default function About() {
                   src={CP}
                   alt="Competitive Programming Cirtificate"
                 />
+                
               </div>
             </div>
           </div>
