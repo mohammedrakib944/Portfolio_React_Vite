@@ -13,8 +13,7 @@ export default function Home() {
     <>
       <Parallax className="landing" bgImage={BG2} strength={500}>
         <div className="landingContent">
-          <h6>Hi, </h6>
-          <h5> I'm Rakib</h5>
+          <h5>Hi, I'm Rakib</h5>
           <h1 className="webTag">WEB DEVELOPER</h1>
           <p>expert on MERN stack</p>
           <Link to="/about">
