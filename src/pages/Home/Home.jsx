@@ -4,20 +4,21 @@ import { Parallax } from "react-parallax";
 import style from "../../assets/common.module.css";
 import "./home.css";
 import { ProjectsNames } from "./Projects";
-// import BG2 from "../../assets/img/bg2.jpg";
-import BG2 from "../../assets/img/bg2.jpg";
+import BG2 from "../../assets/img/use2.png";
+// import BG2 from "../../assets/img/bg3.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      <Parallax className="landing" bgImage={BG2} strength={0}>
+      <Parallax className="landing" bgImage={BG2} strength={500}>
         <div className="landingContent">
-          <h5>I'm Rakib</h5>
-          <h1>WEB DEVELOPER</h1>
+          <h6>Hi, </h6>
+          <h5> I'm Rakib</h5>
+          <h1 className="webTag">WEB DEVELOPER</h1>
           <p>expert on MERN stack</p>
-          <Link to="/contact">
-            <button className="custom-btn">CONTACT</button>
+          <Link to="/about">
+            <button className="custom-btn">ABOUT ME</button>
           </Link>
         </div>
       </Parallax>
@@ -71,8 +72,8 @@ export default function Home() {
         </div>
 
         <div className="gotoAboutSection">
-          <Link className="custom-btn aboutBtn" to="/about">
-            ABOUT ME
+          <Link className="custom-btn aboutBtn" to="/contact">
+            CONTACT
           </Link>
         </div>
       </div>

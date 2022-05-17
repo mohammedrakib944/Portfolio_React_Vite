@@ -13,18 +13,24 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background: linear-gradient(0deg, var(--bodyBG), rgb(0 0 0 / 50%));
+  background: linear-gradient(0deg, var(--bodyBG), transparent);
 }
-
+.landingContent h6 {
+  font-family: "Marck Script", cursive;
+  font-size: 1.5rem;
+}
 .landingContent h5 {
   letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .landingContent h1 {
   font-weight: 100;
   letter-spacing: 5px;
+  font-size: 3.5rem;
 }
 .landingContent p {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 7px;
   color: #ddd;
 }
@@ -67,10 +73,9 @@
   transition: 0.2s;
 }
 .myProject a:hover {
-  box-shadow: 5px 0px 5px var(--primaryColor);
+  box-shadow: 0px 0px 4px var(--primaryColor);
   transform: scale(1.01);
   color: var(--text);
-  transform: perspective(100px) rotateY(-3deg);
 }
 .ISP {
   background: var(--primaryColor);
@@ -116,12 +121,28 @@
   font-weight: 500;
   letter-spacing: 0.3px;
 }
+.webTag {
+  position: relative;
+}
+.webTag::before {
+  content: "<";
+  position: absolute;
+  left: -50px;
+  color: var(--thirdColor);
+}
+.webTag::after {
+  content: "/>";
+  position: absolute;
+  right: -80px;
+  color: var(--thirdColor);
+  letter-spacing: 0px;
+}
 .frontEnd p,
 .backEnd p {
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 15px;
   color: #ddd;
 }
 .backEnd {

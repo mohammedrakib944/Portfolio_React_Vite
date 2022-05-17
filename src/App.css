@@ -1,20 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 :root {
   /* --primaryColor: #fb3858; */
-  --primaryColor: #f1c40f;
+  --primaryColor: #ff0068;
   --blue: #3498db;
   --projectBg: #282a36;
   --secondaryColor: #32323e;
-  --thirdColor: #7c869b;
+  --thirdColor: #a4a5af;
   --bodyBG: #191a25;
   --text: #f2f2f2;
 }
+/* 
+font-family: 'Marck Script', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Marck Script", cursive; */
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 body {
   background: var(--bodyBG) !important;
