@@ -13,7 +13,12 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background: linear-gradient(218deg, var(--bodyBG), var(--primaryColor));
+  background: linear-gradient(
+    145deg,
+    var(--bodyBG),
+    transparent,
+    var(--primaryColor)
+  );
 }
 .landingContent h6 {
   font-family: "Marck Script", cursive;
@@ -168,6 +173,15 @@
 
 /* responsive design */
 @media only screen and (max-width: 967px) {
+  .webTag {
+    font-size: 2rem !important;
+  }
+  .webTag::before {
+    left: -25px;
+  }
+  .webTag::after {
+    right: -30px;
+  }
   .myProject {
     transform: initial;
     grid-template-columns: repeat(2, 1fr);
