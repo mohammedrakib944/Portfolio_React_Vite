@@ -47,7 +47,7 @@
   background-color: #b9ff00;
 }
 .blueBg {
-  background-color: #00c0ff;
+  background-color: #00ffef;
 }
 .purpleBg {
   background-color: #9d44f5;
@@ -79,7 +79,7 @@
   color: var(--primaryColor);
   font-size: 1.4rem;
   border: none;
-  animation: Rotate 10s linear infinite;
+  /* animation: Rotate 10s linear infinite; */
 }
 .settingsSilder button:hover {
   animation: none;

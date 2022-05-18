@@ -48,7 +48,7 @@ export default function Nav() {
             ></button>
             <button
               className="colorBtn blueBg"
-              onClick={() => changePrimaryColor("#62d8ff")}
+              onClick={() => changePrimaryColor("#00ffef")}
             ></button>
             <button
               className="colorBtn purpleBg"
