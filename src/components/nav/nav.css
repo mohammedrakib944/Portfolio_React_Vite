@@ -41,7 +41,7 @@
   color: var(--primaryColor);
 }
 .redBg {
-  background-color: #ff692f;
+  background-color: #ff0068;
 }
 .greenBg {
   background-color: #b9ff00;
@@ -124,7 +124,7 @@
   color: var(--text);
 }
 .colorTitle {
-  color: var(--thirdColor);
+  color: var(--text);
 }
 .primaryColorChage {
   display: flex;

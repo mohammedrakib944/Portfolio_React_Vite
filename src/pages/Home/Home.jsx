@@ -1,16 +1,21 @@
-import { Parallax } from "react-parallax";
-
+// import { Parallax } from "react-parallax";
+import { ToastContainer, toast } from "react-toastify";
 // internal imports
 import style from "../../assets/common.module.css";
 import "./home.css";
 import { ProjectsNames } from "./Projects";
-import backgroundImage from "../../assets/img/background.png";
+// import backgroundImage from "../../assets/img/background.png";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  const portfolioShow = () => {
+    toast.info("Explore this Website.");
+  };
   return (
     <>
-      <Parallax className="landing" bgImage={backgroundImage} strength={500}>
+      {/* <Parallax className="landing" bgImage={backgroundImage} strength={500}> */}
+      <div className="landing">
+        <ToastContainer position="top-right" theme="colored" />
         <div className="landingContent">
           <h5>Hi, I'm Rakib</h5>
           <h1 className="webTag">WEB DEVELOPER</h1>
@@ -19,18 +24,25 @@ export default function Home() {
             <button className="custom-btn">ABOUT ME</button>
           </Link>
         </div>
-      </Parallax>
+      </div>
+      {/* </Parallax> */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6">
             <h2 className={style.sectionTitle}>PROJECTS</h2>
 
             <div className="myProject">
-              {ProjectsNames.map((data, index) => (
-                <Link to={data.path} className={data.classEs} key={index}>
-                  {data.name}
-                </Link>
-              ))}
+              {ProjectsNames.map((data, index) =>
+                data.name === "Portfolio" ? (
+                  <div className={data.classEs} onClick={portfolioShow}>
+                    <span>{data.name}</span>
+                  </div>
+                ) : (
+                  <Link to={data.path} className={data.classEs} key={index}>
+                    {data.name}
+                  </Link>
+                )
+              )}
             </div>
           </div>
         </div>

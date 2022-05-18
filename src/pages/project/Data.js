@@ -27,8 +27,7 @@ export const projectData = [
     params: "nft",
     name: "NFT Home Page",
     language: "React, CSS 3",
-    description:
-      "A simple NFT site front page design for an US client",
+    description: "A simple NFT site front page design for an US client",
     preview: "https://rakib-nft.netlify.app/",
     img1: NFT,
   },
@@ -59,15 +58,14 @@ export const projectData = [
     preview: "https://rakib-movie.netlify.app/",
     img1: Movie,
   },
-  {
-    params: "portfolio",
-    name: "Portfolio",
-    language: "HTML 5, CSS 3",
-    description:
-      "This is the website that I was build for a Client",
-    preview: "https://dorac.app/",
-    img1: portfolio,
-  },
+  // {
+  //   params: "portfolio",
+  //   name: "Portfolio",
+  //   language: "HTML 5, CSS 3",
+  //   description: "This is the website that I was build for a Client",
+  //   preview: "https://dorac.app/",
+  //   img1: portfolio,
+  // },
   {
     params: "todo",
     name: "To-Do List",

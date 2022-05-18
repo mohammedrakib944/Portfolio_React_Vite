@@ -26,7 +26,7 @@ export const ProjectsNames = [
   {
     id: 5,
     name: "Portfolio",
-    path: "/project/portfolio",
+    path: "/",
     classEs: "portfolio",
   },
   {

@@ -25,8 +25,8 @@ export default function Nav() {
       <div className="navSection">
         <div className="settingsSilder">
           <button onClick={() => setToggleSetting("showSetting")}>
-          <i class="fa-solid fa-palette"></i>
-          {/* <i class="fa-solid fa-brush"></i> */}
+            <i class="fa-solid fa-palette"></i>
+            {/* <i class="fa-solid fa-brush"></i> */}
           </button>
         </div>
 
@@ -40,7 +40,7 @@ export default function Nav() {
           <div className="primaryColorChage">
             <button
               className="colorBtn redBg"
-              onClick={() => changePrimaryColor("#ff692f")}
+              onClick={() => changePrimaryColor("#ff0068")}
             ></button>
             <button
               className="colorBtn greenBg"

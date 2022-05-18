@@ -39,15 +39,19 @@ export default function Project() {
             {/* <h5 className="mp-title">All Projects</h5> */}
             <div className="othersProjects">
               <div className="MoreProjects">
-                {ProjectsNames.map((data, index) => (
-                  <NavLink
-                    to={data.path}
-                    className="IndiVidualProjects"
-                    key={index}
-                  >
-                    {data.name}
-                  </NavLink>
-                ))}
+                {ProjectsNames.map((data, index) =>
+                  data.name === "Portfolio" ? (
+                    ""
+                  ) : (
+                    <NavLink
+                      to={data.path}
+                      className="IndiVidualProjects"
+                      key={index}
+                    >
+                      {data.name}
+                    </NavLink>
+                  )
+                )}
               </div>
             </div>
           </div>
