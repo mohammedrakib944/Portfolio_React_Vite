@@ -6,6 +6,7 @@ import "./home.css";
 import { ProjectsNames } from "./Projects";
 // import backgroundImage from "../../assets/img/background.png";
 import { Link } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   const portfolioShow = () => {
@@ -87,6 +88,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

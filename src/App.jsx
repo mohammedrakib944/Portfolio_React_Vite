@@ -22,12 +22,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/partners" element={<Partners />} />
+          <Route path="/team" element={<Partners />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Notfound />} />
           <Route path="/project/:paramsName" element={<Project />} />
         </Routes>
-        <Footer />
       </div>
     </BrowserRouter>
   );

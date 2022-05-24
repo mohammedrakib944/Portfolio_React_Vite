@@ -1,0 +1,50 @@
+.TeamCard {
+  max-width: 450px;
+  min-width: 350px;
+  margin-inline: auto;
+  padding: 15px;
+}
+.team-card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50% !important;
+  border: 2px solid var(--primaryColor);
+}
+.cardBody h5,
+h6 {
+  color: var(--text);
+}
+.cardBody h6 {
+  font-weight: 400;
+}
+.cardBody p {
+  color: var(--thirdColor);
+  text-align: left;
+}
+.AboutMeBTN {
+  width: fit-content;
+  padding: 5px 20px;
+  display: block;
+  color: var(--text);
+  border: 1px solid;
+  margin: 20px 0;
+  margin-inline: auto;
+  transition: 0.2s;
+}
+.AboutMeBTN:hover {
+  color: var(--primaryColor);
+}
+.footerIcons {
+  width: 100%;
+  padding: 0;
+}
+.footerIcons a {
+  padding: 10px;
+  font-size: 19px;
+  color: var(--text);
+  transition: 0.3s;
+}
+.footerIcons a:hover {
+  color: var(--primaryColor);
+}

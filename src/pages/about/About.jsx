@@ -1,5 +1,4 @@
 import { Parallax } from "react-parallax";
-import { Link } from "react-router-dom";
 
 // internal imports
 import "./about.css";
@@ -7,6 +6,7 @@ import style from "../../assets/common.module.css";
 import secondaryBG from "../../assets/img/bg2.png";
 import rakib from "../../assets/img/rakib.jpg";
 import CP from "../../assets/img/CP.jpg";
+import Footer from "../../components/footer/Footer";
 
 export default function About() {
   return (
@@ -29,9 +29,13 @@ export default function About() {
                 <h5>My Name is Md.Rakibuzzaman (Rakib).</h5>
                 <p>
                   I've been doing programming since 2017 from my College life.
-                  At very first I learned HTML, CSS, and javascript. In 2020 I
-                  got admission to Varendra University, Rajshahi Bangladesh.
-                  Then I started to do competitive programming. Learned
+                  At very first I learned HTML, CSS, and javascript.{" "}
+                  <b style={{ color: "var(--text)" }}>
+                    Javscript is my favorite Language
+                  </b>{" "}
+                  In 2020 I got admission to Varendra University, Rajshahi
+                  Bangladesh. Then I started to do competitive programming.
+                  Learned
                   <i> Data-Structure and Algorithms </i>. And Solved 450+
                   problems. Besides, I attend some Programming contests and I
                   did well on those. After that, I move to web development and
@@ -49,17 +53,50 @@ export default function About() {
                 </p>
                 <h5>SOCIAL ACCOUNTS</h5>
                 <div className="socialLinks">
-                  <a href="https://www.fiverr.com/share/1V3dBr" target="_blank" className="scIconfiverr">
+                  <a
+                    href="https://www.fiverr.com/share/1V3dBr"
+                    target="_blank"
+                    className="scIconfiverr"
+                  >
                     Fiverr
                   </a>
-                  <a href="https://www.freelancer.com/u/rakibuzzamanpro3" target="_blank">Freelancer.com</a>
-                  <a href="https://codeforces.com/profile/MohammedRakib" target="_blank">Codeforces</a>
-                  <a href="https://www.youtube.com/channel/UCgjIzFwnjt1vXEg-_BDN8fw" target="_blank" className="scIconYoutube">
+                  <a
+                    href="https://www.freelancer.com/u/rakibuzzamanpro3"
+                    target="_blank"
+                  >
+                    Freelancer.com
+                  </a>
+                  <a
+                    href="https://codeforces.com/profile/MohammedRakib"
+                    target="_blank"
+                  >
+                    Codeforces
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCgjIzFwnjt1vXEg-_BDN8fw"
+                    target="_blank"
+                    className="scIconYoutube"
+                  >
                     Youtube
                   </a>
-                  <a href="https://github.com/mohammedrakib944" target="_blank" className="gitHub">Github</a>
-                  <a href="https://web.facebook.com/md.rakib.38" target="_blank">Facebook</a>
-                  <a href="https://www.linkedin.com/in/mohammed-rakib-246a701b2/" target="_blank" className="LinkdInBg">
+                  <a
+                    href="https://github.com/mohammedrakib944"
+                    target="_blank"
+                    className="gitHub"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://web.facebook.com/md.rakib.38"
+                    target="_blank"
+                  >
+                    Facebook
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/mohammed-rakib-246a701b2/"
+                    target="_blank"
+                    className="LinkdInBg"
+                  >
                     Linkdin
                   </a>
                 </div>
@@ -73,7 +110,6 @@ export default function About() {
                   src={CP}
                   alt="Competitive Programming Cirtificate"
                 />
-                
               </div>
             </div>
           </div>
@@ -90,6 +126,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

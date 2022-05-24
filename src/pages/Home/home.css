@@ -148,13 +148,13 @@
 .webTag::before {
   content: "<";
   position: absolute;
-  left: -50px;
+  left: -40px;
   color: var(--thirdColor);
 }
 .webTag::after {
   content: "/>";
   position: absolute;
-  right: -80px;
+  right: -60px;
   color: var(--thirdColor);
   letter-spacing: 0px;
 }

@@ -25,14 +25,13 @@ export default function Nav() {
       <div className="navSection">
         <div className="settingsSilder">
           <button onClick={() => setToggleSetting("showSetting")}>
-            <i class="fa-solid fa-palette"></i>
-            {/* <i class="fa-solid fa-brush"></i> */}
+            <i className="fa-solid fa-palette"></i>
           </button>
         </div>
 
         <div className={`settings ${toggleSetting}`}>
           <button className="hideSetting" onClick={() => setToggleSetting("")}>
-            <i class="fa-solid fa-angles-left"></i>
+            <i className="fa-solid fa-angles-left"></i>
           </button>
           <h5 className="settingsTitle">Settings</h5>
           <hr />
@@ -44,7 +43,7 @@ export default function Nav() {
             ></button>
             <button
               className="colorBtn greenBg"
-              onClick={() => changePrimaryColor("#b9ff00")}
+              onClick={() => changePrimaryColor("#00ff6a")}
             ></button>
             <button
               className="colorBtn blueBg"
@@ -68,7 +67,7 @@ export default function Nav() {
                   className="hideMenu"
                   onClick={() => setToggleButton("showNav")}
                 >
-                  <i class="fa-solid fa-bars"></i>
+                  <i className="fa-solid fa-bars"></i>
                 </button>
                 <NavLink to="/">
                   <h2 className="Logo">
@@ -90,7 +89,7 @@ export default function Nav() {
                   <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/partners">Partnars</NavLink>
+                  <NavLink to="/team">Our Team</NavLink>
                 </li>
                 <li>
                   <NavLink to="/contact">Contact</NavLink>
