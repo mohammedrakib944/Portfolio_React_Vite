@@ -146,7 +146,43 @@
 }
 .webTag {
   position: relative;
+  font-size: 32px;
+  font-weight: 400 !important;
+  letter-spacing: 5px;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(
+    60deg,
+    var(--at),
+    var(--at),
+    #fff,
+    var(--at),
+    var(--at)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animate 5s linear infinite;
+  background-size: 95%;
 }
+
+@keyframes animate {
+  0% {
+    background-position: -800%;
+  }
+  40% {
+    background-position: 800%;
+    color: rgb(182, 182, 182);
+  }
+  90% {
+    background-position: 800%;
+    color: rgb(160, 160, 160);
+  }
+  100% {
+    background-position: 800%;
+    color: rgb(0, 0, 0);
+  }
+}
+
 .webTag::before {
   content: "<";
   position: absolute;
@@ -194,14 +230,26 @@
     left: -51%;
     opacity: 0.8;
   }
+  .landingContent h5 {
+    font-size: 18px;
+  }
   .webTag {
-    font-size: 2rem !important;
+    font-size: 24px !important;
   }
   .webTag::before {
+    font-size: 24px;
     left: -25px;
   }
   .webTag::after {
+    font-size: 24px;
     right: -30px;
+  }
+  .landingContent p {
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+  .custom-btn {
+    padding: 5px 21px;
   }
   .myProject {
     transform: initial;
