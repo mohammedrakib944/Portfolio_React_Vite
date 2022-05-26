@@ -1,8 +1,8 @@
 export const ProjectsNames = [
   {
     id: 1,
-    name: "ISP-Management",
-    path: "/project/isp",
+    name: "E-commerce",
+    path: "/project/ecommerce",
     classEs: "ISP",
   },
   {
@@ -37,8 +37,8 @@ export const ProjectsNames = [
   },
   {
     id: 7,
-    name: "E-commerce",
-    path: "/project/ecommerce",
-    classEs: "ecommerce E-commerce-grid",
+    name: "ISP-Management",
+    path: "/project/isp",
+    classEs: " ecommerce E-commerce-grid",
   },
 ];
