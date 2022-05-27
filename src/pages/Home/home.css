@@ -190,13 +190,14 @@
   content: "<";
   position: absolute;
   left: -40px;
-  color: var(--thirdColor);
+  color: var(--primaryColor);
 }
 .webTag::after {
   content: "/>";
   position: absolute;
   right: -60px;
-  color: var(--thirdColor);
+  color: var(--primaryColor);
+  filter: hue-rotate(235deg);
   letter-spacing: 0px;
 }
 .frontEnd p,

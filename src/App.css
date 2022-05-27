@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap");
 :root {
   /* --primaryColor: #fb3858; */
-  --primaryColor: #00ff6a;
+  --primaryColor: #ff0071ce;
   --blue: #009eff;
   --projectBg: #282a36;
   --secondaryColor: #32323e;
@@ -40,14 +40,14 @@ body::before {
 body::after {
   content: "";
   position: absolute;
-  width: 400px;
+  width: 600px;
   height: 500px;
   background: var(--primaryColor);
   border-radius: 50%;
-  filter: blur(200px);
+  filter: blur(200px) hue-rotate(256deg);
   top: 30%;
   z-index: 0;
-  right: 120px;
+  right: 0px;
   opacity: 0.4;
 }
 .active {
