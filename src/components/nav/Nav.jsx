@@ -89,7 +89,7 @@ export default function Nav() {
                   <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/team">Our Team</NavLink>
+                  <NavLink to="/team">Team</NavLink>
                 </li>
                 <li>
                   <NavLink to="/contact">Contact</NavLink>

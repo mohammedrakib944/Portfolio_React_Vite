@@ -35,7 +35,11 @@ export default function Home() {
             <div className="myProject">
               {ProjectsNames.map((data, index) =>
                 data.name === "Portfolio" ? (
-                  <div className={data.classEs} onClick={portfolioShow}>
+                  <div
+                    className={data.classEs}
+                    key={index}
+                    onClick={portfolioShow}
+                  >
                     <span>{data.name}</span>
                   </div>
                 ) : (

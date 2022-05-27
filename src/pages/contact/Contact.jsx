@@ -43,11 +43,12 @@ export default function Contact() {
               <hr />
               <br />
               <p>
-                Email:{" "}
-                <span className="texting">mohammedrakib944@gmail.com</span>
+                <i className="fa-solid fa-envelope"></i> &nbsp; Email:&nbsp;
+                &nbsp;
+                <span className="texting">rakibuzzaman.contact@gmail.com</span>
               </p>
               <p>
-                Phone: <span className="texting">+88 01705472922</span>
+                {/* Phone: <span className="texting">+88 01705472922</span> */}
               </p>
             </div>
           </div>

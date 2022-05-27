@@ -61,7 +61,7 @@ export default function Project() {
             {/* <h5 className="mp-title">Details</h5> */}
             <div id="singleProject">
               <p className="backBtn" onClick={() => navigate(-1)}>
-                <i class="fa-solid fa-arrow-left"></i> Back
+                <i className="fa-solid fa-arrow-left"></i> Back
               </p>
               <br />
               <hr />
@@ -104,6 +104,8 @@ export default function Project() {
                 <img className="projectImgClass" src={data?.img4} />
               </div>
             </div>
+            <br />
+            <br />
           </div>
         </div>
       </div>

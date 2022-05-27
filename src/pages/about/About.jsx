@@ -28,24 +28,24 @@ export default function About() {
                 <h6>Hi,</h6>
                 <h5>My Name is Md.Rakibuzzaman (Rakib).</h5>
                 <p>
-                  I am passionate about Programming and Tech. I've been doing
-                  programming since 2016. At very first I learned HTML, CSS, and
-                  javascript.
+                  I am an undergraduate computer science student. I am
+                  passionate about Programming and Technologies. I have been
+                  doing programming since 2016. In early stage I learned HTML,
+                  CSS, and javascript.{" "}
                   <b style={{ color: "var(--text)" }}>
                     {" "}
                     Javscript ! is my favorite Language.
                   </b>{" "}
-                  Now I am a undergraduate computer science student. I started
-                  to do competitive programming in 2019. Learned
-                  <i> Data Structure and Algorithms </i>. And Solved many
-                  problems on different website. Besides, I attend Programming
-                  contests. After that, I move to MERN stack development and
-                  Learn React, Node js, Express js, Mongo DB. My goal was to be
-                  a skilled MERN stack developer. Then the middle of 2021, I got
-                  a Job. And I did the job for 8 months as MERN stack Developer.{" "}
-                  <br />
-                  Currently, I am doing freelancing projects for my clients, And
-                  of course, Learning new technologies.
+                  I started to do competitive programming in 2019 then learn
+                  Data Structure and Algorithms. And Solved many problems on
+                  different websites like codechef.com, codeforces.com,
+                  hackerrank.com, etc. Besides, I attend Programming contests.
+                  Then I move to MERN stack development and Learn React, Node
+                  js, Express js, and MongoDB. My goal was to be a skilled MERN
+                  stack developer. On the middle of 2021, I got a job. I did the
+                  job for 8 months as MERN stack Developer. <br /> Now a days, I
+                  am doing freelancing projects for my clients, And of course,
+                  Learning new technologies.
                 </p>
                 <h5>EDUCATION</h5>
                 <p>
@@ -104,8 +104,8 @@ export default function About() {
                 </div>
                 <h5 className="mt-4">ACHIVEMENT</h5>
                 <p>
-                  This is an Intra University programming contest second runners
-                  Up certificate.
+                  This is our Intra University programming contest certificate
+                  (second runners Up).
                 </p>
                 <img
                   className="Cirtificate"
@@ -121,8 +121,9 @@ export default function About() {
             <div className="myDetails">
               <h2 className={style.sectionTitle}>THIS SITE</h2>
               <p>
-                This website is made with React js (A javascript library). Also
-                Bootstrap and many other librarys
+                I tried to make this website with a unique UI. This website is
+                made with React js (A javascript library), CSS 3, Bootstrap 5
+                and many other librarys
               </p>
             </div>
           </div>
