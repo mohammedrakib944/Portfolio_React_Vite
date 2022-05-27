@@ -103,7 +103,7 @@
 .ISP {
   background: var(--primaryColor);
   grid-column: 1/-2;
-  color: #2b2e3c !important;
+  color: #000000 !important;
 }
 .ISP:hover {
   box-shadow: 0px 0px 4px var(--at) !important;
@@ -144,7 +144,7 @@
 .backEnd h4 {
   font-size: 16px;
   color: var(--primaryColor);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.3px;
 }
 .webTag {
@@ -197,7 +197,7 @@
   position: absolute;
   right: -60px;
   color: var(--primaryColor);
-  filter: hue-rotate(235deg);
+  filter: hue-rotate(240deg);
   letter-spacing: 0px;
 }
 .frontEnd p,

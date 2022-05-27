@@ -44,7 +44,7 @@ body::after {
   height: 500px;
   background: var(--primaryColor);
   border-radius: 50%;
-  filter: blur(200px) hue-rotate(256deg);
+  filter: blur(200px) hue-rotate(240deg);
   top: 30%;
   z-index: 0;
   right: 0px;
