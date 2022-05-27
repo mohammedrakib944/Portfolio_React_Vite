@@ -28,22 +28,24 @@ export default function About() {
                 <h6>Hi,</h6>
                 <h5>My Name is Md.Rakibuzzaman (Rakib).</h5>
                 <p>
-                  I've been doing programming since 2017 from my College life.
-                  At very first I learned HTML, CSS, and javascript.{" "}
+                  I am passionate about Programming and Tech. I've been doing
+                  programming since 2016. At very first I learned HTML, CSS, and
+                  javascript.
                   <b style={{ color: "var(--text)" }}>
-                    Javscript is my favorite Language
+                    {" "}
+                    Javscript ! is my favorite Language.
                   </b>{" "}
-                  In 2020 I got admission to Varendra University, Rajshahi
-                  Bangladesh. Then I started to do competitive programming.
-                  Learned
-                  <i> Data-Structure and Algorithms </i>. And Solved 450+
-                  problems. Besides, I attend some Programming contests and I
-                  did well on those. After that, I move to web development and
-                  Learned React, Node js, Express js, Mongo DB. My goal was to
-                  be a great MERN stack developer. Then the middle of 2021, I
-                  got a job offer from a company called SUNNO SOFTWARE. And I do
-                  the job for 8 months as React Developer. And currently, I am
-                  doing freelancing projects for my clients.
+                  Now I am a undergraduate computer science student. I started
+                  to do competitive programming in 2019. Learned
+                  <i> Data Structure and Algorithms </i>. And Solved many
+                  problems on different website. Besides, I attend Programming
+                  contests. After that, I move to MERN stack development and
+                  Learn React, Node js, Express js, Mongo DB. My goal was to be
+                  a skilled MERN stack developer. Then the middle of 2021, I got
+                  a Job. And I did the job for 8 months as MERN stack Developer.{" "}
+                  <br />
+                  Currently, I am doing freelancing projects for my clients, And
+                  of course, Learning new technologies.
                 </p>
                 <h5>EDUCATION</h5>
                 <p>
