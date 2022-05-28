@@ -35,7 +35,7 @@ export default function Nav() {
           </button>
           <h5 className="settingsTitle">Settings</h5>
           <hr />
-          <h6 className="colorTitle">Primary Color</h6>
+          <h6 className="colorTitle">Themes</h6>
           <div className="primaryColorChage">
             <button
               className="colorBtn redBg"
