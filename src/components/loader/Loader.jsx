@@ -5,7 +5,7 @@ export default function Loader() {
   window.onload = () => {
     setTimeout(() => {
       document.querySelector(".Loader").style.display = "none";
-    }, 100);
+    }, 1000);
   };
   return (
     <div className="Loader">
