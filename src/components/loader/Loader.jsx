@@ -7,6 +7,7 @@ export default function Loader() {
       document.querySelector(".Loader").style.display = "none";
     }, 1000);
   };
+
   return (
     <div className="Loader">
       <img src={LoaderImg} />

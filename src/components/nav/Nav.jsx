@@ -22,43 +22,42 @@ export default function Nav() {
 
   return (
     <>
+      <div className="settingsSilder">
+        <button onClick={() => setToggleSetting("showSetting")}>
+          <i className="fa-solid fa-palette"></i>
+        </button>
+      </div>
+      <div className={`settings ${toggleSetting}`}>
+        <button className="hideSetting" onClick={() => setToggleSetting("")}>
+          <i className="fa-solid fa-angles-left"></i>
+        </button>
+        <h5 className="settingsTitle">Settings</h5>
+        <hr />
+        <h6 className="colorTitle">Themes</h6>
+        <div className="primaryColorChage">
+          <button
+            className="colorBtn redBg"
+            onClick={() => changePrimaryColor("#ff0071ce")}
+          ></button>
+          <button
+            className="colorBtn greenBg"
+            onClick={() => changePrimaryColor("#00ff6a")}
+          ></button>
+          <button
+            className="colorBtn blueBg"
+            onClick={() => changePrimaryColor("#00ffef")}
+          ></button>
+          <button
+            className="colorBtn purpleBg"
+            onClick={() => changePrimaryColor("#b774f9")}
+          ></button>
+          <button
+            className="colorBtn yellowBg"
+            onClick={() => changePrimaryColor("#f1c40f")}
+          ></button>
+        </div>
+      </div>
       <div className="navSection">
-        <div className="settingsSilder">
-          <button onClick={() => setToggleSetting("showSetting")}>
-            <i className="fa-solid fa-palette"></i>
-          </button>
-        </div>
-
-        <div className={`settings ${toggleSetting}`}>
-          <button className="hideSetting" onClick={() => setToggleSetting("")}>
-            <i className="fa-solid fa-angles-left"></i>
-          </button>
-          <h5 className="settingsTitle">Settings</h5>
-          <hr />
-          <h6 className="colorTitle">Themes</h6>
-          <div className="primaryColorChage">
-            <button
-              className="colorBtn redBg"
-              onClick={() => changePrimaryColor("#ff0071ce")}
-            ></button>
-            <button
-              className="colorBtn greenBg"
-              onClick={() => changePrimaryColor("#00ff6a")}
-            ></button>
-            <button
-              className="colorBtn blueBg"
-              onClick={() => changePrimaryColor("#00ffef")}
-            ></button>
-            <button
-              className="colorBtn purpleBg"
-              onClick={() => changePrimaryColor("#b774f9")}
-            ></button>
-            <button
-              className="colorBtn yellowBg"
-              onClick={() => changePrimaryColor("#f1c40f")}
-            ></button>
-          </div>
-        </div>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-4">

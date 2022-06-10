@@ -10,7 +10,7 @@ import secondaryBG from "../../assets/img/bg2.png";
 
 export default function Contact() {
   const sendMessageHandler = () => {
-    toast.error("Can't send message!");
+    toast.error("Can't send message! (এই মুহূর্তে সংযোগ দেয়া সম্ভব হচ্ছে না)");
   };
 
   return (

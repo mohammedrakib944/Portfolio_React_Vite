@@ -4,17 +4,15 @@ import { ToastContainer, toast } from "react-toastify";
 import style from "../../assets/common.module.css";
 import "./home.css";
 import { ProjectsNames } from "./Projects";
-// import backgroundImage from "../../assets/img/background.png";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   const portfolioShow = () => {
-    toast.info("Explore this Website.");
+    toast.success("Explore this Website. ( আপাতত এটাই  দেখেন )");
   };
   return (
     <>
-      {/* <Parallax className="landing" bgImage={backgroundImage} strength={500}> */}
       <div className="landing">
         <ToastContainer position="top-right" theme="colored" />
         <div className="landingContent">

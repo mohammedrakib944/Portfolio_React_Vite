@@ -6,7 +6,6 @@ import Movie from "../../assets/projectImg/movie.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
-import portfolio from "../../assets/projectImg/portfolio.jpg";
 import todoList from "../../assets/projectImg/todoList.png";
 import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 
@@ -17,7 +16,7 @@ export const projectData = [
     language: "React, CSS 3",
     description:
       "This is the project that I build for an company call -sunno software bd. This is all with react functional component",
-    preview: "https://netfeebd.com/",
+    preview: "https://netfeebd.com",
     img1: Dash1,
     img2: Dash2,
     img3: Dash3,
@@ -28,7 +27,7 @@ export const projectData = [
     name: "NFT Home Page",
     language: "React, CSS 3",
     description: "A simple NFT site front page design for an US client",
-    preview: "https://rakib-nft.netlify.app/",
+    preview: "https://rakib38-swap.netlify.app",
     img1: NFT,
   },
   {
@@ -37,7 +36,7 @@ export const projectData = [
     language: "React, CSS 3",
     description:
       "This is an E-commerce website(developing phase) build with react and raw CSS, But I use little but of bootstrap 5.",
-    preview: "https://rakib-e-commerce.netlify.app/",
+    preview: "https://rakib-e-commerce.netlify.app",
     img1: ecommerceImg,
   },
   {
@@ -55,7 +54,7 @@ export const projectData = [
     language: "React, Rest API, CSS 3",
     description:
       "This is the App you can find all details of any movies. I was build this website for clear my REST API concept.",
-    preview: "https://rakib-movie.netlify.app/",
+    preview: "https://rakib-movie.netlify.app",
     img1: Movie,
   },
   // {
@@ -72,7 +71,7 @@ export const projectData = [
     language: "HTML 5, CSS 3, Vanilla Javascript",
     description:
       "This is very first app I was build for clearing my javascript concept also ES6",
-    preview: "https://rakibskills.me/todo-list/",
+    preview: "https://rakibskills.me/todo-list",
     img1: todoList,
   },
 ];

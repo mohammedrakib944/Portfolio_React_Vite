@@ -4,11 +4,12 @@
   --primaryColor: #b774f9;
   --blue: #009eff;
   --projectBg: #282a36;
-  --secondaryColor: #32323e;
+  --secondaryColor: linear-gradient(45deg, #32323e, rgb(55 55 80 / 24%));
   --at: rgba(17, 17, 17, 0.788);
   --thirdColor: #a4a5af;
   --bodyBG: #191a25;
   --text: #f2f2f2;
+  --border: 1px solid rgb(221 221 221 / 11%);
 }
 /* 
 font-family: 'Rajdhani', sans-serif;

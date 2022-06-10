@@ -85,7 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #454544;
+  border: var(--border);
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -95,7 +95,7 @@
 .portfolio:hover,
 .myProject a:hover {
   cursor: pointer;
-  box-shadow: 0px 0px 4px var(--primaryColor);
+  /* box-shadow: 0px 0px 4px var(--primaryColor); */
   transform: scale(1.01);
   border-color: var(--primaryColor);
   color: var(--text);
@@ -132,6 +132,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background: var(--secondaryColor);
+  border: var(--border);
   grid-gap: 10px;
   padding: 20px;
   border-radius: 10px;
