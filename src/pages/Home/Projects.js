@@ -7,7 +7,7 @@ export const ProjectsNames = [
   },
   {
     id: 2,
-    name: "NFT",
+    name: "Swap Coin",
     path: "/project/nft",
     classEs: "ecommerce nft",
   },

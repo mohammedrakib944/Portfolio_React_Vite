@@ -24,7 +24,7 @@ export const projectData = [
   },
   {
     params: "nft",
-    name: "NFT Home Page",
+    name: "Swap Cryptocurrency",
     language: "React, CSS 3",
     description: "A simple NFT site front page design for an US client",
     preview: "https://rakib38-swap.netlify.app",
