@@ -1,7 +1,7 @@
 import Dash1 from "../../assets/projectImg/dashboard1.png";
 import Dash2 from "../../assets/projectImg/dashboard2.png";
-import Dash3 from "../../assets/projectImg/dashboardMobile.png";
-import Dash4 from "../../assets/projectImg/dashboardMobile2.png";
+// import Dash3 from "../../assets/projectImg/dashboardMobile.png";
+// import Dash4 from "../../assets/projectImg/dashboardMobile2.png";
 import Movie from "../../assets/projectImg/movie.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
@@ -11,6 +11,7 @@ import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 
 export const projectData = [
   {
+    id: 1,
     params: "isp",
     name: "ISP Management",
     language: "React, CSS 3",
@@ -19,10 +20,9 @@ export const projectData = [
     preview: "https://netfeebd.com",
     img1: Dash1,
     img2: Dash2,
-    img3: Dash3,
-    img4: Dash4,
   },
   {
+    id: 2,
     params: "nft",
     name: "Swap Cryptocurrency",
     language: "React, CSS 3",
@@ -31,6 +31,7 @@ export const projectData = [
     img1: NFT,
   },
   {
+    id: 3,
     params: "ecommerce",
     name: "E-commerce",
     language: "React, CSS 3",
@@ -40,6 +41,7 @@ export const projectData = [
     img1: ecommerceImg,
   },
   {
+    id: 4,
     params: "socialMedia",
     name: "Social Media",
     language: "React, CSS 3",
@@ -49,6 +51,7 @@ export const projectData = [
     img1: media2,
   },
   {
+    id: 5,
     params: "movie",
     name: "Movie Review",
     language: "React, Rest API, CSS 3",
@@ -57,15 +60,8 @@ export const projectData = [
     preview: "https://rakib-movie.netlify.app",
     img1: Movie,
   },
-  // {
-  //   params: "portfolio",
-  //   name: "Portfolio",
-  //   language: "HTML 5, CSS 3",
-  //   description: "This is the website that I was build for a Client",
-  //   preview: "https://dorac.app/",
-  //   img1: portfolio,
-  // },
   {
+    id: 6,
     params: "todo",
     name: "To-Do List",
     language: "HTML 5, CSS 3, Vanilla Javascript",

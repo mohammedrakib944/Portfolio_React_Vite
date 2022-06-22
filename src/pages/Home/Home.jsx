@@ -6,6 +6,7 @@ import "./home.css";
 import { ProjectsNames } from "./Projects";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
+import Project from "../project/Project";
 
 export default function Home() {
   const portfolioShow = () => {
@@ -27,10 +28,10 @@ export default function Home() {
       {/* </Parallax> */}
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-6">
+          <div className="col-md-10">
             <h2 className={style.sectionTitle}>PROJECTS</h2>
-
-            <div className="myProject">
+            <Project />
+            {/* <div className="myProject">
               {ProjectsNames.map((data, index) =>
                 data.name === "Portfolio" ? (
                   <div
@@ -46,7 +47,7 @@ export default function Home() {
                   </Link>
                 )
               )}
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row justify-content-center mb-5">

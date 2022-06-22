@@ -1,5 +1,6 @@
 .sectionTitle {
-  width: 100%;
+  width: fit-content;
+  margin: 0 auto;
   text-align: center;
   color: var(--text);
   font-size: 18px;
@@ -15,7 +16,7 @@
   height: 1px;
   background-color: var(--thirdColor);
   top: 72%;
-  left: 31%;
+  left: -70%;
 }
 .sectionTitle::after {
   content: "";
@@ -24,7 +25,7 @@
   height: 1px;
   background-color: var(--thirdColor);
   top: 72%;
-  right: 31%;
+  right: -70%;
 }
 
 /* about, contact etc. background  */
