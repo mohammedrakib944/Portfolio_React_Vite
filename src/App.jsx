@@ -24,7 +24,6 @@ export default function App() {
           <Route path="/team" element={<Partners />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Notfound />} />
-          <Route path="/project/:paramsName" element={<Project />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -71,12 +71,14 @@
 }
 .IndiVidualProjects {
   width: 100%;
-  margin-bottom: 7px;
+  height: 100px;
   border-radius: 6px;
   border: 1px solid rgb(68 73 74 / 65%);
+  margin-bottom: 10px;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: 0.3s;
+  object-fit: cover;
 }
 .IndiVidualProjects:hover {
   opacity: 1;
@@ -108,8 +110,7 @@
   left: 105%;
   box-shadow: 3px 3px 10px rgb(0 0 0 / 23%);
 }
-.myTooltip::before,
-.myTooltip::after {
+.myTooltip::before {
   opacity: 0;
   transform: translateX(-100%);
   transition: 0.1s;
@@ -121,6 +122,9 @@
 /* tool-tip */
 
 @media only screen and (max-width: 767px) {
+  .myTooltip::before {
+    display: none;
+  }
   .MoreProjects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

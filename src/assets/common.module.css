@@ -43,12 +43,6 @@
 }
 /* responseive design */
 @media only screen and (max-width: 967px) {
-  .sectionTitle::before {
-    left: 17%;
-  }
-  .sectionTitle::after {
-    right: 17%;
-  }
   .commonBackground h2 {
     font-size: 4rem;
     margin-top: 10px;

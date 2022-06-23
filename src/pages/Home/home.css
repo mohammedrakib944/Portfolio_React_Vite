@@ -1,5 +1,6 @@
 .landing {
   height: 100vh;
+  background: url("../../assets/img/bg.jpg") center no-repeat fixed;
   position: relative;
 }
 .landing::before {

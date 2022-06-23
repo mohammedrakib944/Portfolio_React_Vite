@@ -18,8 +18,8 @@ export const projectData = [
     description:
       "This is the project that I build for an company call -sunno software bd. This is all with react functional component",
     preview: "https://netfeebd.com",
-    img1: Dash1,
-    img2: Dash2,
+    img1: Dash2,
+    img2: Dash1,
   },
   {
     id: 2,
