@@ -3,6 +3,7 @@ import Dash2 from "../../assets/projectImg/dashboard2.png";
 // import Dash3 from "../../assets/projectImg/dashboardMobile.png";
 // import Dash4 from "../../assets/projectImg/dashboardMobile2.png";
 import Movie from "../../assets/projectImg/movie.png";
+import dorac from "../../assets/projectImg/dorac.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
@@ -12,14 +13,12 @@ import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 export const projectData = [
   {
     id: 1,
-    params: "isp",
-    name: "ISP Management",
-    language: "React, CSS 3",
-    description:
-      "This is the project that I build for an company call -sunno software bd. This is all with react functional component",
-    preview: "https://netfeebd.com",
-    img1: Dash2,
-    img2: Dash1,
+    params: "dorac",
+    name: "NFT",
+    language: "Next.js, css module",
+    description: "Recently I did this project, Conversion of Figma to next.js.",
+    preview: "https://rakib-nft-2.netlify.app/",
+    img1: dorac,
   },
   {
     id: 2,
@@ -62,6 +61,17 @@ export const projectData = [
   },
   {
     id: 6,
+    params: "isp",
+    name: "ISP Management",
+    language: "React, CSS 3",
+    description:
+      "This is the project that I build for an company call -sunno software bd. This is all with react functional component",
+    preview: "https://netfeebd.com",
+    img1: Dash2,
+    img2: Dash1,
+  },
+  {
+    id: 7,
     params: "todo",
     name: "To-Do List",
     language: "HTML 5, CSS 3, Vanilla Javascript",

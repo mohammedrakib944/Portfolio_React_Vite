@@ -3,7 +3,7 @@
   text-align: center;
 }
 #singleProject {
-  max-height: 80vh;
+  height: 47.5rem;
   overflow-y: auto;
   background: var(--secondaryColor);
   border: var(--border);
@@ -20,7 +20,7 @@
   border-radius: 10px;
 }
 #singleProject::-webkit-scrollbar-thumb {
-  background: var(--primaryColor);
+  background: rgba(0, 0, 0, 0.295);
   border-radius: 10px;
 }
 
@@ -51,6 +51,7 @@
   width: 100%;
   border-radius: 5px;
   margin-bottom: 15px;
+  border: 1px solid #ffffff57;
 }
 
 /* others projects */

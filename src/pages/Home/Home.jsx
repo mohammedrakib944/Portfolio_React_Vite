@@ -31,37 +31,21 @@ export default function Home() {
           <div className="col-md-10">
             <h2 className={style.sectionTitle}>PROJECTS</h2>
             <Project />
-            {/* <div className="myProject">
-              {ProjectsNames.map((data, index) =>
-                data.name === "Portfolio" ? (
-                  <div
-                    className={data.classEs}
-                    key={index}
-                    onClick={portfolioShow}
-                  >
-                    <span>{data.name}</span>
-                  </div>
-                ) : (
-                  <Link to={data.path} className={data.classEs} key={index}>
-                    {data.name}
-                  </Link>
-                )
-              )}
-            </div> */}
           </div>
         </div>
         <div className="row justify-content-center mb-5">
-          <div className="col-md-6">
+          <div className="col-md-5 col-10">
             <h2 className={style.sectionTitle}>MY SKILLS</h2>
             <div className="skillsSection">
               <div className="frontEnd">
                 <h4>FRONT END</h4>
-                <p>HTML</p>
-                <p>CSS</p>
+                <p>*** HTML</p>
+                <p>*** CSS</p>
                 <p>UI/UX</p>
                 <p>Javascript</p>
                 <p>Bootstrap</p>
-                <p>React js</p>
+                <p>*** React js</p>
+                <p>*** Next js</p>
                 <p>Rest API</p>
                 <hr />
                 <h4>BACK END</h4>
