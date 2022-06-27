@@ -14,7 +14,6 @@ export default function Project() {
     let _id = id || 1;
     setcurrentId(_id);
     const tempDetails = projectData.find((page) => page.id == _id);
-    console.log("Dekh", tempDetails);
     setData(tempDetails);
   };
 
