@@ -123,6 +123,9 @@
 /* tool-tip */
 
 @media only screen and (max-width: 767px) {
+  #singleProject {
+    height: initial;
+  }
   .myTooltip::before {
     display: none;
   }

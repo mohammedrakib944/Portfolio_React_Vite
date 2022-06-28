@@ -3,6 +3,7 @@ import "./home.css";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Project from "../project/Project";
+import fiverr from "../../assets/img/fiverr.png";
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -25,9 +26,24 @@ export default function Home() {
           <h5>Hi, I'm Rakib</h5>
           <h1 className="webTag">WEB DEVELOPER</h1>
           <p>expert on MERN stack</p>
-          <Link to="/about">
-            <button className="custom-btn">ABOUT ME</button>
-          </Link>
+          <div className="buttons">
+            <a
+              href="https://github.com/mohammedrakib944"
+              target="_blank"
+              className="github"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span>Github</span>
+            </a>
+            <a
+              href="https://www.fiverr.com/mdrakibuzzam"
+              target="_blank"
+              className="fiverr"
+            >
+              <img src={fiverr} className="fiverrLogo" alt="fiver logo" />
+              <span>Fiverr</span>
+            </a>
+          </div>
         </div>
       </div>
       {/* </Parallax> */}

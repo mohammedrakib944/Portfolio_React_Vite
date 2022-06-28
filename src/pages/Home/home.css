@@ -54,6 +54,37 @@
   letter-spacing: 7px;
   color: #ddd;
 }
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.buttons a {
+  color: var(--primaryColor);
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  background: rgb(0 0 0 / 40%);
+  padding: 8px 25px;
+  border-radius: 7px;
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(105, 105, 105, 0.082);
+  transition: 0.3s;
+}
+.buttons a:hover {
+  color: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+.buttons a span {
+  color: #c9c1c1d1;
+  font-size: 17px;
+  padding-left: 10px;
+}
+.fiverrLogo {
+  width: 24px;
+}
 .custom-btn {
   background: rgb(0 0 0 / 56%);
   border-radius: 20px;

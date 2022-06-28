@@ -21,6 +21,10 @@ font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body,
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--bodyBG) !important;
   position: relative;
