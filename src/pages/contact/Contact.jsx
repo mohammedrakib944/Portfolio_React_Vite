@@ -45,7 +45,7 @@ export default function Contact() {
               <p>
                 <i className="fa-solid fa-envelope"></i> &nbsp; Email:&nbsp;
                 &nbsp;
-                <span className="texting">rakibuzzaman.contact@gmail.com</span>
+                <span className="texting">mohammedrakib944@gmail.com</span>
               </p>
               <p>
                 {/* Phone: <span className="texting">+88 01705472922</span> */}

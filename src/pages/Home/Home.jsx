@@ -10,13 +10,7 @@ import { loadFull } from "tsparticles";
 
 export default function Home() {
   const particlesInit = async (main) => {
-    console.log(main);
-
     await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
   };
 
   return (
@@ -25,14 +19,14 @@ export default function Home() {
         <div className="landingContent">
           <h5>Hi, I'm Rakib</h5>
           <h1 className="webTag">WEB DEVELOPER</h1>
-          <p>expert on MERN stack</p>
+          <p>expert on Front-End</p>
           <div className="buttons">
             <a
               href="https://github.com/mohammedrakib944"
               target="_blank"
               className="github"
             >
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
               <span>Github</span>
             </a>
             <a
@@ -93,7 +87,6 @@ export default function Home() {
         <Particles
           id="tsparticles"
           init={particlesInit}
-          loaded={particlesLoaded}
           options={{
             preset: "firefly",
 
