@@ -30,6 +30,13 @@ export default function Home() {
               <span>Github</span>
             </a>
             <a
+              href="https://rakib-tailwind.netlify.app/"
+              target="_blank"
+              className="fiverr"
+            >
+              <span>🤪 My Another Website</span>
+            </a>
+            <a
               href="https://www.fiverr.com/mdrakibuzzam"
               target="_blank"
               className="fiverr"

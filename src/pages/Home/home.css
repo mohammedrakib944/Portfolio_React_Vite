@@ -256,6 +256,9 @@
   .landingContent h5 {
     font-size: 18px;
   }
+  .buttons {
+    flex-direction: column;
+  }
   .webTag {
     font-size: 26px !important;
   }
