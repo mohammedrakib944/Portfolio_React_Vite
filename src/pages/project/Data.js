@@ -3,7 +3,7 @@ import Dash2 from "../../assets/projectImg/dashboard2.png";
 // import Dash3 from "../../assets/projectImg/dashboardMobile.png";
 // import Dash4 from "../../assets/projectImg/dashboardMobile2.png";
 import Movie from "../../assets/projectImg/movie.png";
-import dorac from "../../assets/projectImg/dorac.png";
+import insta from "../../assets/projectImg/insta.png";
 import media1 from "../../assets/projectImg/media1.png";
 import media2 from "../../assets/projectImg/media2.png";
 import NFT from "../../assets/projectImg/NFT.png";
@@ -13,12 +13,12 @@ import ecommerceImg from "../../assets/projectImg/ecommerce.png";
 export const projectData = [
   {
     id: 1,
-    params: "dorac",
-    name: "NFT",
-    language: "Next.js, css module",
+    params: "insta",
+    name: "Instagram Dark",
+    language: "Next.js, Tailwind CSS",
     description: "Recently I did this project, Conversion of Figma to next.js.",
-    preview: "https://rakib-nft-2.netlify.app/",
-    img1: dorac,
+    preview: "https://rakib-insta.netlify.app/",
+    img1: insta,
   },
   {
     id: 2,

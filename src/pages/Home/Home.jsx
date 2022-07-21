@@ -34,7 +34,7 @@ export default function Home() {
               target="_blank"
               className="fiverr"
             >
-              <span>🤪 My Another Website</span>
+              <span>🤪 My Second Website</span>
             </a>
             <a
               href="https://www.fiverr.com/mdrakibuzzam"
