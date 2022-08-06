@@ -17,7 +17,7 @@ const Contract = () => {
       </p>
       <motion.h2
         variants={Iam}
-        className="py-4 text-slate-700 dark:text-slate-200 mb-4"
+        className="py-4 text-gray-700 dark:text-gray-200 mb-4"
       >
         Get In Touch{" "}
         <motion.div className="inline-block" variants={emoji}>

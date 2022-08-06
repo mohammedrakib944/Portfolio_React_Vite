@@ -27,17 +27,17 @@ const Main = () => {
           viewport={{ once: true, amount: 0.4 }}
         >
           <motion.p
-            className="uppercase text-sm tracking-widest text-slate-600 dark:text-slate-300"
+            className="uppercase text-sm tracking-widest text-gray-600 dark:text-gray-300"
             variants={pAnimate}
           >
             LETS BUILD SOMETING TOGETHER
           </motion.p>
           <motion.h1
             variants={Iam}
-            className="py-4 text-slate-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
+            className="py-4 text-gray-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
           >
             Hi, I&apos;m{" "}
-            <span className="text-slate-900 dark:text-slate-100">
+            <span className="text-gray-900 dark:text-gray-100">
               Rakib{" "}
               <motion.div className="inline-block" variants={emoji}>
                 😎
@@ -46,13 +46,13 @@ const Main = () => {
           </motion.h1>
           <motion.h1
             variants={Iam}
-            className="py-2 text-slate-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
+            className="py-2 text-gray-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
           >
-            A Front-End Web Developer
+            🔗Blockchain Developer
           </motion.h1>
           <motion.p
             variants={pAnimateY}
-            className="py-4 text-slate-600  max-w-[70%] mx-auto dark:text-slate-400"
+            className="py-4 text-gray-600  max-w-[70%] mx-auto dark:text-gray-400"
           >
             I am an undergraduate computer science student. I am passionate
             about Programming and Technologies.

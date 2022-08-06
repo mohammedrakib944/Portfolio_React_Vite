@@ -57,7 +57,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-[60px] z-[100] shadow-lg bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl"
+          ? "fixed w-full h-[60px] z-[100] shadow-lg bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl"
           : "fixed w-full h-[60px] z-[100]"
       }
     >
@@ -99,7 +99,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed h-screen bg-white dark:bg-slate-800 left-0 top-0 w-[80%] p-10 ease-in duration-300"
+              ? "fixed h-screen bg-white dark:bg-gray-800 left-0 top-0 w-[80%] p-10 ease-in duration-300"
               : "fixed h-screen left-[-100%] w-[70%] p-10 top-0 ease-in duration-300"
           }
         >
@@ -113,8 +113,8 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-slate-400 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 dark:text-slate-400">
+            <div className="border-b border-gray-400 my-4">
+              <p className="w-[85%] md:w-[90%] py-4 dark:text-gray-400">
                 Front End Developer
               </p>
             </div>

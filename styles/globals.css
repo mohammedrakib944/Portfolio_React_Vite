@@ -31,10 +31,10 @@
 
 @layer components {
   .c-link {
-    @apply ml-10 text-sm uppercase font-semibold text-black  hover:text-sky-600 dark:text-slate-200 dark:hover:text-sky-300;
+    @apply ml-10 text-sm uppercase font-semibold text-black  hover:text-sky-600 dark:text-gray-200 dark:hover:text-sky-300;
   }
   .c-button {
-    @apply cursor-pointer rounded-full text-slate-600 shadow-lg p-3 border border-slate-200/50 dark:text-sky-200 hover:shadow-none duration-300 hover:scale-105 hover:text-sky-500 dark:hover:text-sky-500;
+    @apply cursor-pointer rounded-full text-gray-600 shadow-lg p-3 border border-gray-200/50 dark:text-sky-200 hover:shadow-none duration-300 hover:scale-105 hover:text-sky-500 dark:hover:text-sky-500;
   }
   .wrapper {
     @apply container mx-auto lg:w-[70%] px-4 py-16 mt-10;
