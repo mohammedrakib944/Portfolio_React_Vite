@@ -32,7 +32,7 @@ const Projects = () => {
         </motion.div>
       </motion.h2>
       <div
-        className="grid md:grid-cols-3 gap-8"
+        className="grid md:grid-cols-3 gap-8 overflow-hidden"
         transition={{ staggerChildren: 0.2 }}
       >
         <motion.div variants={popUp}>

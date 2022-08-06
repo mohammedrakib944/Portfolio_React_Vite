@@ -48,7 +48,8 @@ const Main = () => {
             variants={Iam}
             className="py-2 text-gray-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
           >
-            🔗Blockchain Developer
+            Blockchain <span className=" text-3xl md:text-5xl">🔗</span>{" "}
+            Developer
           </motion.h1>
           <motion.p
             variants={pAnimateY}
