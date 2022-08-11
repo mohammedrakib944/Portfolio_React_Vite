@@ -115,7 +115,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-400 my-4">
               <p className="w-[85%] md:w-[90%] py-4 dark:text-gray-400">
-                Front End Developer
+                Blockchain Developer
               </p>
             </div>
           </div>

@@ -2,11 +2,8 @@ import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
-
-import { motion, variants } from "framer-motion";
-
+import { motion } from "framer-motion";
 import { pAnimate, pAnimateY, Iam, emoji, popUp } from "../public/animate";
-
 import bg from "../assets/bg.png";
 
 const Main = () => {
@@ -24,7 +21,7 @@ const Main = () => {
           initial={"offscreen"}
           whileInView={"onscreen"}
           transition={{ staggerChildren: 0.2 }}
-          viewport={{ once: true, amount: 0.4 }}
+          viewport={{ once: false, amount: 0.1 }}
         >
           <motion.p
             className="uppercase text-sm tracking-widest text-gray-600 dark:text-gray-300"
