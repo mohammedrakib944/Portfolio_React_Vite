@@ -64,6 +64,7 @@ const Main = () => {
             <a
               href="https://www.linkedin.com/in/mohammed-rakib-246a701b2/"
               target="_blank"
+              rel="noreferrer"
               className="c-button p-3 md:p-5 text-lg"
             >
               <FaLinkedinIn />
@@ -71,6 +72,7 @@ const Main = () => {
             <a
               href="https://github.com/mohammedrakib944"
               target="_blank"
+              rel="noreferrer"
               className="c-button p-3 md:p-5 text-lg"
             >
               <FaGithub />
