@@ -5,6 +5,8 @@ import Instagram from "../assets/projects/instaLong.png";
 import Ecommerce from "../assets/projects/ecommerce.png";
 import Movie from "../assets/projects/movie.png";
 import NFT from "../assets/projects/NFT.png";
+import NFTMarket from "../assets/projects/NFTmarket.png";
+import DoracM from "../assets/projects/DoracM.png";
 
 import { Iam, emoji, popUp } from "../public/animate";
 
@@ -21,7 +23,7 @@ const Projects = () => {
         </div>
       </h2>
       <div
-        className="grid md:grid-cols-3 gap-8 overflow-hidden"
+        className="grid md:grid-cols-3 gap-8 overflow-hidden pb-6"
         transition={{ staggerChildren: 0.2 }}
       >
         <div variants={popUp}>
@@ -54,6 +56,22 @@ const Projects = () => {
             tech="React Js"
             url="https://rakib38-swap.netlify.app/"
             bg={NFT}
+          />
+        </div>
+        <div variants={popUp}>
+          <ProjectsItem
+            name="Landing Page"
+            tech="Next.Js, Tailwind CSS"
+            url="https://rakib-nft-marketplace.netlify.app/"
+            bg={NFTMarket}
+          />
+        </div>
+        <div variants={popUp}>
+          <ProjectsItem
+            name="Dorac"
+            tech="React Js, Tailwind CSS"
+            url="https://rakib-dorac-2.netlify.app/"
+            bg={DoracM}
           />
         </div>
       </div>

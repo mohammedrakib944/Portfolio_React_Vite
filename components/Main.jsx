@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { pAnimate, pAnimateY, Iam, emoji, popUp } from "../public/animate";
 import bg from "../assets/bg.png";
 
+import Link from "next/link";
+
 const Main = () => {
   const Background = {
     backgroundImage: `url(${bg.src})`,
@@ -57,20 +59,22 @@ const Main = () => {
           </motion.p>
           <motion.div
             variants={popUp}
-            className="flex items-center justify-center gap-4 md:justify-between max-w-[330px] mx-auto py-4"
+            className="flex items-center justify-center gap-4 max-w-[330px] mx-auto py-4"
           >
-            <div className="c-button p-3 md:p-5 text-lg">
+            <a
+              href="https://www.linkedin.com/in/mohammed-rakib-246a701b2/"
+              target="_blank"
+              className="c-button p-3 md:p-5 text-lg"
+            >
               <FaLinkedinIn />
-            </div>
-            <div className="c-button p-3 md:p-5 text-lg">
+            </a>
+            <a
+              href="https://github.com/mohammedrakib944"
+              target="_blank"
+              className="c-button p-3 md:p-5 text-lg"
+            >
               <FaGithub />
-            </div>
-            <div className="c-button p-3 md:p-5 text-lg">
-              <AiOutlineMail />
-            </div>
-            <div className="c-button p-3 md:p-5 text-lg">
-              <BsPersonLinesFill />
-            </div>
+            </a>
           </motion.div>
         </motion.div>
       </div>

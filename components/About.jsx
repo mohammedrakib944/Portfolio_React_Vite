@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { motion, variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 import man from "../assets/rakib.jpg";
 import { pAnimateY, Iam, emoji, imgAnimate } from "../public/animate";
@@ -41,8 +41,8 @@ const About = () => {
             My Name is Md.Rakibuzzaman (Rakib). I am an undergraduate computer
             science student. I have been doing programming since 2016. In early
             stage I learned HTML, CSS, and javascript. (Javscript ! is my
-            favorite Language 🥰) I started to do competitive programming in
-            2019 then learn Data Structure and Algorithms. And Solved many
+            favorite Language 🥰) I started doing competitive programming from
+            2019 along with learn Data Structure and Algorithms. And Solved many
             problems on different websites like codechef.com, codeforces.com,
             hackerrank.com, etc. Besides, attend Programming contests.
           </motion.p>
@@ -53,7 +53,8 @@ const About = () => {
             Then I move to full stack development and Learn React js, Next js,
             Tailwind, Node js, Express js, and MongoDB. On the middle of 2021, I
             got a job. I did the job for 8 months as Front End Developer. Now a
-            days I am working with 🔗Blockchain Technologies.
+            days I am working with 🔗Blockchain Technologies. Besides doing a
+            job as Blockchains Developer.
           </motion.p>
         </div>
         <motion.div
@@ -62,7 +63,7 @@ const About = () => {
         >
           <Image
             src={man}
-            alt="Rakib"
+            alt="Rakibuzzaman"
             layout="responsive"
             className="rounded-xl"
           />
