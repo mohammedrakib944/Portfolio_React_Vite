@@ -1,7 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { pAnimate, pAnimateY, Iam, emoji, popUp } from "../public/animate";
 import bg from "../assets/bg.png";
@@ -68,6 +66,14 @@ const Main = () => {
               className="c-button p-3 md:p-5 text-lg"
             >
               <FaLinkedinIn />
+            </a>
+            <a
+              href="https://www.facebook.com/md.rakib.38"
+              target="_blank"
+              rel="noreferrer"
+              className="c-button p-3 md:p-5 text-lg"
+            >
+              <FaFacebookF />
             </a>
             <a
               href="https://github.com/mohammedrakib944"
