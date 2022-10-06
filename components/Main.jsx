@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { pAnimate, pAnimateY, Iam, emoji, popUp } from "../public/animate";
 import bg from "../assets/bg.png";
 
-import Link from "next/link";
-
 const Main = () => {
   const Background = {
     backgroundImage: `url(${bg.src})`,
