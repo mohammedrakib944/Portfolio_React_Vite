@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Achivement from "../components/Achivement";
 import Contract from "../components/Contract";
 
 export const themeChange = () => {
@@ -30,6 +31,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
+        <Achivement />
         <Contract />
       </div>
     </div>
