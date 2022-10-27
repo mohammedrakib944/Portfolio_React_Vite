@@ -23,7 +23,7 @@ export default function Home() {
             content="Rakib, Rakibuzzaman, Front end developer, React js developer, Best front end developer in Bangladesh, Blockchain Developer, Programmer, Next js Developer, Best fron end developer, best front end developer portfolio, best front end developer websites, best front end developer portfolio projects"
           />
           <meta name="author" content="Md Rakibuzzaman" />
-          <title>Rakib | Blockchain Developer</title>
+          <title>Rakib | Front-End Developer</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
