@@ -59,6 +59,7 @@ const About = () => {
               href="https://decentralizedbrains.com/"
               className="text-sky-500 hover:text-sky-400"
               target="_blank"
+              rel="noreferrer"
             >
               Decentralize Brains
             </a>{" "}
