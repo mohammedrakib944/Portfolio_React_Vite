@@ -43,9 +43,9 @@ const Main = () => {
             variants={Iam}
             className="py-2 text-gray-700 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-400"
           >
-            Front End <span className=" text-3xl md:text-5xl">🔗</span>{" "}
-            Developer
+            MERN Stack Developer
           </motion.h1>
+          <p className="text-gray-400 tracking-[10px]">(Expert on Front-end)</p>
           <motion.p
             variants={pAnimateY}
             className="py-4 text-gray-600  max-w-[70%] mx-auto dark:text-gray-400"

@@ -54,7 +54,15 @@ const About = () => {
             Tailwind, Node js, Express js, and MongoDB. On the middle of 2021, I
             got a job. I did the job for 8 months as Front End Developer. Now a
             days I am working with 🔗Blockchain Technologies. Besides doing a
-            job as Blockchains Developer.
+            job on a Web3 and Blockchain Startup{" "}
+            <a
+              href="https://decentralizedbrains.com/"
+              className="text-sky-500 hover:text-sky-400"
+              target="_blank"
+            >
+              Decentralize Brains
+            </a>{" "}
+            as Front-End Developer.
           </motion.p>
         </div>
         <motion.div
