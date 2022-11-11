@@ -26,7 +26,7 @@ const Achivement = () => {
         </motion.div>
       </motion.h2>
       <div className="mb-6">
-        <h3 className="text-gray-100 text-2xl">
+        <h3 className="text-gray-500 dark:text-gray-100 text-2xl">
           <span className="text-sky-300">BUET</span> CSE FEST 2022
         </h3>
         <h3 className="text-gray-400">Hackathon: Web 3.0 and Blockchain</h3>

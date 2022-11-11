@@ -46,13 +46,19 @@ const Main = () => {
             MERN Stack Developer
           </motion.h1>
           <p className="text-gray-400 tracking-[10px]">(Expert on Front-end)</p>
-          <motion.p
-            variants={pAnimateY}
-            className="py-4 text-gray-600  max-w-[70%] mx-auto dark:text-gray-400"
-          >
-            I am an undergraduate computer science student. I am passionate
-            about Programming and Technologies.
+          <br />
+          <motion.p variants={pAnimateY} className="mx-auto dark:text-gray-400">
+            <a
+              href="CV.pdf"
+              target="_blank"
+              className="py-3 px-6 bg-indigo-600 rounded-full  text-white hover:bg-indigo-500 duration-300"
+              rel="noreferrer"
+            >
+              Download my CV
+            </a>
           </motion.p>
+          <br />
+
           <motion.div
             variants={popUp}
             className="flex items-center justify-center gap-4 max-w-[330px] mx-auto py-4"
